@@ -1,0 +1,277 @@
+@charset "UTF-8";
+@media (min-width: 758px) {
+  /* css reset */
+  /* block 요소 m,p reset */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  div,
+  p,
+  ol,
+  ul,
+  li,
+  dl,
+  dt,
+  dd,
+  header,
+  section,
+  article,
+  span,
+  label,
+  form,
+  a,
+  fieldset,
+  legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  body {
+    font-size: 14px;
+  }
+  /* another */
+  form,
+  fieldset,
+  legend {
+    border-style: none;
+    border: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  address {
+    font-style: normal;
+  }
+  button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    *overflow: visible;
+  }
+  input {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+    *overflow: visible;
+  }
+  /* Common class */
+  /* .blind {visibility: hidden; } 글자있던 자리는 남아있게 됨 */
+  .blind {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+  }
+  /* tabletDesktop */
+  /* header start */
+  /*  header top bar */
+  .header {
+    width: 100%;
+    height: 103px;
+    position: relative;
+    background: #0c2745;
+    /* header top end */
+  }
+  .header .header_top {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden;
+  }
+  .header .header_top .header_menu {
+    width: 75%;
+    height: 100%;
+    background: yellow;
+  }
+  .header .header_top .header_menu .logo {
+    height: 80px;
+    background: url(../../images/header/logo345.jpg) no-repeat left;
+    text-indent: -9999px;
+  }
+  .header .header_top .header_menu a {
+    display: block;
+    height: 100%;
+  }
+  .header .header_top .user_menu {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 25%;
+    height: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header .header_top .user_menu .user_menu_li {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header .header_top .user_menu .user_menu_li .new {
+    display: block;
+    width: 43%;
+    height: 25%;
+    text-align: center;
+    padding-top: 6px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 2%;
+  }
+  .header .header_top .user_menu .user_menu_li .new a {
+    font-size: 0.786rem;
+    color: #fff;
+  }
+  .header .header_top .user_menu .user_menu_li .country {
+    position: relative;
+    width: 55%;
+    height: 25%;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  .header .header_top .user_menu .user_menu_li .country ul {
+    position: absolute;
+    width: 90%;
+    top: 0;
+    line-height: 2rem;
+    text-indent: 0;
+  }
+  .header .header_top .user_menu .user_menu_li .country ul a {
+    display: inline-block;
+    font-size: 0.786rem;
+    color: #fff;
+  }
+  .header .header_top .user_menu .user_menu_li .country ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .header_top .user_menu .user_menu_li .country ul li:nth-child(1)::after {
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    content: "";
+    background: url(../../images/header/tri678.png) no-repeat;
+    margin-left: 10px;
+  }
+  .header .header_top .user_menu .user_menu_li .country ul li:nth-child(1)::before {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    content: "";
+    background: url(../../images/header/country678.jpg) no-repeat;
+    margin-right: 10px;
+  }
+  .header .header_top .user_menu .user_menu_li .search {
+    width: 100%;
+    height: 65%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 15px;
+  }
+  .header .header_top .user_menu .user_menu_li .search #search_input {
+    float: left;
+    width: 70%;
+    height: 20px;
+    border-bottom: 1px solid #999;
+  }
+  .header .header_top .user_menu .user_menu_li .search #search_input::-webkit-input-placeholder {
+    font-size: 0.714rem;
+    color: #999;
+  }
+  .header .header_top .user_menu .user_menu_li .search #search_input:-ms-input-placeholder {
+    font-size: 0.714rem;
+    color: #999;
+  }
+  .header .header_top .user_menu .user_menu_li .search #search_input::-ms-input-placeholder {
+    font-size: 0.714rem;
+    color: #999;
+  }
+  .header .header_top .user_menu .user_menu_li .search #search_input::placeholder {
+    font-size: 0.714rem;
+    color: #999;
+  }
+  .header .header_top .user_menu .user_menu_li .search .submitBtn {
+    float: left;
+    width: 10%;
+    margin-left: 5px;
+    color: rgba(255, 255, 255, 0);
+    background: url(../../images/header/search678.png) no-repeat;
+  }
+  .header .header_top .user_menu .user_menu_li .ham {
+    display: none;
+  }
+  .header nav {
+    position: relative;
+    width: 100%;
+    background: burlywood;
+  }
+  .header nav .nav_menu {
+    width: 97%;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px;
+  }
+  .header nav .nav_menu .coffee_box {
+    position: absolute;
+    top: -35px;
+    margin-top: 1px;
+  }
+  .header nav .nav_menu .coffee_box > a {
+    display: block;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border-top: 4px solid rgba(255, 255, 255, 0);
+  }
+  .header nav .nav_menu .coffee_box > a:hover {
+    background: #fff;
+    border-top: 4px solid saddlebrown;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .header nav .nav_menu .coffee_box .coffee_menu {
+    position: relative;
+    width: 260%;
+    height: 100%;
+    background: bisque;
+  }
+  main {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=tabletdesktop_style.css.map */

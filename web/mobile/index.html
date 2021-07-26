@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>탐나는전</title>
+    <!-- css start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="apple-touch-icon" href="../../favicon.ico" sizes="144x144">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/header.css">
+    <link type="text/css" rel="stylesheet" href="css/footer.css">
+    <!-- css end -->
+    <!-- script start -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/gnb.js"></script>
+    <script src="js/bxSlider.js"></script>
+    <script src="js/index.js" charset="utf-8"></script>
+    <!-- script end -->
+</head>
+
+<body>
+   <!-- header start -->
+   <header id="header" class="header">
+    <div class="header_box">
+        <h1><a href="index.php" class="topmenu" title="메인">탐나는전</a></h1>
+        <!-- gnb start -->
+        <nav class="gnb" id="topwrap">
+            <h2 class="topmenu">상단 메뉴</h2>
+            <ul class="gnb_signin_join_wrap">
+                    <li class="gnb_signin gnb_login signinall"><a href="signin.php" title="로그인" class="gnb_signin_link si">로그인</a></li>
+                    <li class="gnb_join signinall"><a href="join.php" title="회원가입" class="gnb_join_link">회원가입</a></li>
+                    <li class="gnb_signout gnb_login signinall"><a href="#" title="로그아웃" class="gnb_signin_link" onclick="log_out()">로그아웃</a></li>
+                    <li class="gnb_join signinall"><a href="mypage.php?idx=<?php echo $s_idx; ?>" title="마이페이지" class="gnb_join_link">마이페이지</a></li>
+            </ul>
+            <ul class="gnb_menu_wrap">
+                <li class="gnb_info"><a href="intro.html" class="topmenu menu" title="탐나는전 안내">탐나는전</a>
+                    <ul class="gnb_info_sub sub">
+                        <li><a href="intro.html#main" title="탐나는전 소개">탐나는전 소개</a></li>
+                        <li><a href="intro.html#benefit" title="탐나는전 혜택">탐나는전 혜택</a></li>
+                        <li><a href="intro.html#howto" title="탐나는전 발급방법">탐나는전 발급방법</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_personal"><a href="signin.php" class="topmenu menu" title="개인사용자 메뉴">개인사용자</a>
+                    <ul class="gnb_personal_sub sub">
+                        <li><a href="apply.php" title="카드 신청">카드 신청</a></li>
+                        <li><a href="mycardapply.php" title="카드 등록">카드 등록</a></li>
+                        <li><a href="payment_view.php" title="이용 내역">이용 내역</a></li>
+                        <li><a href="shop_search1.php" title="가맹점 찾기">가맹점 찾기</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_shop "><a href="shop_benefit.php" class="topmenu menu" title="가맹점 메뉴">가맹점</a>
+                    <ul class="gnb_shop_sub sub">
+                        <li><a href="shop_benefit.php" title="가맹점 혜택">가맹점 혜택</a></li>
+                        <li><a href="shop_apply.php" title="가맹점 등록">가맹점 등록</a></li>
+                        <li><a href="shop_revenue.php" title="가맹점 매출확인">가맹점 매출확인</a></li>
+                        <li><a href="shop_download.php" title="홍보물 다운">홍보물 다운</a></li>
+                    </ul>
+                </li>
+                <li class="gnb_customer"><a href="notice.php" class="topmenu menu" title="고객센터">고객센터</a>
+                    <ul class="gnb_customer_sub sub">
+                        <li><a href="notice.php" title="공지사항">공지사항</a></li>
+                        <li><a href="news.php" title="NEWS">NEWS</a></li>
+                        <li><a href="qna_toggleopen.php" title="자주묻는질문">자주묻는질문</a></li>
+                        <li><a href="contact.php" title="문의하기">문의하기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="gnb_more topmenu">더보기</a>
+    </div>
+    <div class="gnb_sub_box">
+        <div class="gnb_sub">
+            <h3 class="blind">서브메뉴</h3>
+        </div>
+    </div>
+    <!-- gnb end -->
+</header>
+<!-- header end -->
+    <!-- main start -->
+    <main id="main" class="main">
+        <!-- main img start -->
+        <div class="main_img_wrap">
+            <h2 class="blind">메인이미지</h2>
+                <ul class="slidewrap">
+                    <li class="main_img_1 item">
+                        <img src="images/index/tamna_mobile_index_main_img1.jpg" alt="탐나는전 혜택 소개">
+                        <p class="blind"> 탐나는전 혜택 소개
+                        1번 카드 충전시 10% 추가 적립
+                        2번 지류 상품권 구매 시 10% 즉시 할인
+                        3번 탐나는전 앱에서 카드 충전관리 기능 제공
+                        4번 지류상품권 현금영수증 발급 가능
+                        5번 카드사용액 30% 소득공제 (전통시장은 40%)
+                        탐나는전 앱 에서 소득공제를 신청하셔야 합니다.</p>
+                    </li>
+                    <li class="main_img_2 item">
+                        <img src="images/index/tamna_mobile_index_main_img2.jpg" alt="탐나는전 어플 설치하기">
+                        <p class="blind"> 탐나는전 어플 설치하기
+                            앱에서 간편하게 탐나는전 이용 </p>
+                    </li>
+                    <li class="main_img_3 item">
+                        <img src="images/index/tamna_mobile_index_main_img3.jpg" alt="가맹점 신청 안내">
+                        <a href="shop_benefit.php" class="main_img_link" title="가맹점 신청하기">
+                            가맹점 신청 안내
+                            삼춘! 아직 가맹점 신청 안하맨?
+                        </a>
+                    </li> 
+                </ul>
+        </div>
+        <!-- main img end -->
+        <!-- quick menu start -->
+        <section class="quick_menu">
+            <h2 class="blind">빠른 메뉴</h2>
+            <ul>
+                <li class="quick_subs"><a href="signin.php" title="카드발급신청">카드발급신청</a></li>
+                <li class="quick_usage"><a href="payment_view.php" title="이용내역보기">이용내역보기</a></li>
+                <li class="quick_search"><a href="shop_search1.php" title="가맹점찾기">가맹점찾기</a></li>
+                <li class="quick_register"><a href="shop_apply.php" title="가맹점등록">가맹점등록</a></li>
+            </ul>
+        </section>
+        <!-- quick menu end -->
+        <!-- board start -->
+        <div class="board">
+            <div class="board_top">
+                <div class="board_notice">
+                    <h3><a href="notice.php">공지사항</a></h3>
+                    <ul>
+                        <li><a href="qna_toggleopen.php#qna1" title="'탐나는전'을 결제받으면 어떻게 입금처리 되나요?">'탐나는전'을 결제받으면 어떻게 입금처리 되나요?</a></li>
+                    </ul>
+                </div>
+                <div class="board_news">
+                    <h3><a href="news.php">NEWS</a></h3>
+                    <ul>
+                        <li><a href="qna_toggleopen.php#qna1" title="'탐나는전'을 결제받으면 어떻게 입금처리 되나요?">'탐나는전'을 결제받으면 어떻게 입금처리 되나요?</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="board_bottom">
+                <div class="board_qna">
+                    <h3><a href="qna_toggleopen.php" title="자주 묻는 질문">자주묻는질문</a></h3>
+                </div>
+                <div class="board_qr">
+                    <h3><a href="#">탐나는전 <br><span>어플</span> 다운로드</a></h3>
+                </div>
+            </div>
+        </div>
+        <!-- board end -->
+
+        <!-- youtube start -->
+        <article class="youtube">
+            <h2 class="blind">홍보영상</h2>
+            <div class="youtube_official">
+                <h3 class="blind">유튜브 비디오</h3>
+                <iframe class="youtube_official_iframe" src="https://www.youtube.com/embed/_bEZYRQUcqc" title="youtube_official_iframe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </article>
+        <!-- youtube end -->
+        <!-- link start -->
+        <section class="link">
+            <div class="link_header">
+                <h2 class="blind">유관기관 링크</h2>
+                <p>제주로 혼저옵서예</p>
+            </div>
+            <ul class="link_box">
+                <li class="link_jejutourism"><a href="https://www.ijto.or.kr" title="제주관광공사" target="_blank">
+                        제주관광공사
+                    </a></li>
+                <li class="link_jejugoverment"><a href="http://www.jeju.go.kr" title="제주특별자치도" target="_blank">
+                        제주특별자치도
+                    </a></li>
+                <li class="link_jejusafecode"><a href="https://jshop.jeju.go.kr/index.html#/" title="제주안심코드" target="_blank">
+                        제주안심코드
+                    </a></li>
+            </ul>
+        </section>
+        <!-- link end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer id="footer" class="footer">
+        <div class="footer_box">
+            <h2><a href="http://tamna.jeju.go.kr/mainView.do">탐나는전 업체 정보</a></h2>
+            <div class="footer_txt">
+                <address>주소 : (63122) 제주특별자치도 제주시 문연로 6(연동)</address>
+                <p>대표전화 : 1600-3971 (09:00 ~ 18:00)</p>
+                <p>Copyright 2020 제주특별자치도. All rights reserved</p>
+            </div>
+            <div class="footer_jejugoverment"><a href="https://www.jeju.go.kr/corona19.jsp">제주특별자치도 바로가기</a></div>
+        </div>
+    </footer>
+   <!-- footer end -->
+      <!-- script add -->
+      <script src="js/index.js"></script>
+</body>
+</html>

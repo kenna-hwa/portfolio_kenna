@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+
+/* main */
+
+/* tamna join */
+
+.main{
+    width: 1080px;
+    height: 764px;
+    margin: auto;
+}
+.tamna_join {
+    position: relative;
+    width: 1080px;
+    height: 310px;
+    margin: 150px auto 50px;
+}
+.tamna_join h2::before {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    content: "";
+    background: url(../images/apply/tamna_card_apply_logo.jpg) no-repeat;
+    top: -130px;
+    left: 50%;
+    margin-left: -41px;
+}
+.tamna_join h2 {
+    position: relative;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    text-align: center;
+    top: 130px;
+}
+.tamna_join_txt {
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    text-align: left;
+    top: 215px;
+    left: 395px;
+    margin-bottom: 50px;
+}
+
+
+/* tamna join order */
+
+.tamna_join_order {
+    position: relative;
+    width: 722px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    top:230px;
+    margin: 0 auto 50px;
+}
+.tamna_join_order1 {
+    display: block;
+    width: 33.22222222222%;
+    height: 40px;
+    border-right: 1px solid #dadada;
+    float: left;
+}
+.tamna_join_order2 {
+    display: block;
+    width: 33.22222222222%;
+    height: 39px;
+    border-right: 1px solid #dadada;
+    background: #21bdbd;
+    font-weight: 400;
+    box-sizing: border-box;
+    float: left;
+}
+.tamna_join_order3 {
+    display: block;
+    width: 33.22222222222%;
+    height: 40px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* tamna input form */
+
+.tamna_input_form {
+    position: relative;
+    width: 1080px;
+    height: 240px;
+    margin: 0 auto 50px;
+    font-size: 16px;
+}
+
+
+
+/* id */
+
+.tamna_join_id_box {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    border-top: 1px solid #444;
+    box-sizing: border-box;
+}
+.tamna_join_id_label {
+    position: absolute;
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    padding-left: 20px;
+    line-height: 75px;
+    box-sizing: border-box;    
+}
+.tamna_join_id_label::after {
+    position: absolute;
+    content: "*";
+    margin-top: 4px;
+    color: rgb(185, 0, 0);
+}
+#tamna_join_id {
+    position: absolute;
+    display: inline-block;
+    width: 263px;
+    height: 55px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 0px solid #fff;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    top: 12px;
+    left: 300px;
+    cursor: text;
+}
+.tamna_join_id_select_input {
+    position: absolute;
+    width: 237px;
+    height: 55px;
+    border-top: 1px solid #ccc;
+    border-left: 0px solid #fff;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    top: 12px;
+    left: 562px;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-left: 30px;
+}
+/* .tamna_join_id_select_input>span {
+    position: relative;
+    top: 15px;
+    left:0;
+    font-size: 16px;
+    font-weight: 500;
+} */
+#at {
+    position: absolute;
+    font-size: 20px;
+    top: 25px;
+    left: 550px;
+}
+#tamna_join_id_domain {
+    position: absolute;
+    width: 265px;
+    height: 55px;
+    border: 1px solid #ccc;
+    top: 12px;
+    left: 815px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#tamna_join_id_domain:optional {
+    color: #444;
+    font-size: 18px;
+}
+
+/* tamna_input_pw */
+.tamna_input_pw_box {
+    position: relative;
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    border-top: 1px solid #444;
+    box-sizing: border-box;
+}
+.tamna_input_pw_label {
+    position: absolute;
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    padding-left: 20px;
+    line-height: 75px;
+    box-sizing: border-box;    
+}
+.tamna_input_pw_label::after {
+    position: absolute;
+    content: "*";
+    margin-top: 4px;
+    color: rgb(185, 0, 0);
+}
+#tamna_input_pw {
+    position: absolute;
+    width: 780px;
+    height: 55px;
+    top: 12px;
+    left: 300px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 16px;
+    cursor: text;
+}
+
+/* tamna_input_pw_check */
+.tamna_input_pw_check_box {
+    position: relative;
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    box-sizing: border-box;
+}
+.tamna_input_pw_check_label {
+    position: absolute;
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    padding-left: 20px;
+    line-height: 75px;
+    box-sizing: border-box;    
+}
+.tamna_input_pw_check_label::after {
+    position: absolute;
+    content: "*";
+    margin-top: 4px;
+    color: rgb(185, 0, 0);
+}
+#tamna_input_pw_check {
+    position: absolute;
+    width: 780px;
+    height: 55px;
+    top: 12px;
+    left: 300px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding-left: 20px;
+    cursor: text;
+    font-size: 16px;
+}
+
+/* tamna join finish btn */
+
+.tamna_join_finish_btn {
+    display: block;
+    width: 350px;
+    height: 100px;
+    background: #21bdbd;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 50px auto 150px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.tamna_join_finish_btn:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}

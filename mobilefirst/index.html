@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/mobile/mobile_style.css">
+    <link rel="stylesheet" href="scss/tabletDesktop/tabletdesktop_style.css">
+
+    <title>드롱기 공식 사이트</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <section class="header_top">
+            <div class="header_menu">
+                <h1 class="logo"><a href="#">드롱기</a></h1>
+            </div>
+            <div class="user_menu">
+                <h2 class="blind">유저 메뉴</h2>
+                <ul class="user_menu_li">
+                    <li class="new"><a href="#">새소식</a></li>
+                    <li class="country"><a href="#">국가선택</a>
+                        <ul>
+                            <li><a href="#">ko-kr</a></li>
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Italy</a></li>
+                        </ul>
+                    </li>
+                    <li class="search">
+                        <form action="temp.php">
+                            <label for="search_input" class="blind">페이지 검색하기</label>
+                            <input type="text" name="search" id="search_input" placeholder="검색">
+                            <button type="submit" class="submitBtn">검색</button>
+                        </form>
+                    </li>
+                    <li class="ham">메뉴 <span class="more">더보기</span></li>
+                </ul>
+            </div>
+        </section>
+        <nav>
+            <ul class="nav_menu">
+                <li class="coffee_box"><a href="#">커피</a>
+                    <ul class="coffee_menu">
+                        <li class="coffeemachine"><a href="#">커피머신</a>
+                            <ul class="coffeemachine_sub">
+                                <li><a href="#">전자동 커피머신</a></li>
+                                <li><a href="#">반자동 커피머신</a></li>
+                                <li><a href="#">구름치노</a></li>
+                                <li><a href="#">드립 커피메이커</a></li>
+                                <li><a href="#">커피 그라인더</a></li>
+                                <li><a href="#">커피머신 액세서리</a></li>
+                            </ul>
+                        </li>
+                        <li class="coffeerecipe"><a href="#">커피 레시피</a></li>
+                        <li class="coffeelounge"><a href="#">커피라운지</a></li>
+                    </ul>
+                </li>
+                <li class="kitchen_box"><a href="">주방가전</a>
+                    <ul class="kitchen_menu">
+                        <li class="kitchenmachine">주방가전
+                            <ul class="kitchenmachine_sub">
+                                <li><a href="#">에어프라이어</a></li>
+                                <li><a href="#">전기오븐</a></li>
+                                <li><a href="#">전기주전자</a></li>
+                                <li><a href="#">토스터</a></li>
+                                <li><a href="#">전기그릴</a></li>
+                            </ul>
+                        </li>
+                        <li class="kitchenbreak">브랙퍼스트 콜렉션
+                            <ul class="kitchenbreak_sub">
+                                <li><a href="#">디스틴타</a></li>
+                                <li><a href="#">아이코닉 빈티지</a></li>
+                                <li><a href="#">아이코나</a></li>
+                                <li><a href="#">아이코나 캐피탈</a></li>
+                                <li><a href="#">디스틴타 모먼츠</a></li>
+                                <li><a href="#">디스틴타 X</a></li>
+                                <li><a href="#">아이코나 메탈릭스</a></li>
+                                <li><a href="#">디스틴타 펄라</a></li>
+                            </ul>
+                        </li>
+                        <li class="kitcheninduction">인덕션
+                            <ul class="kitcheninduction_sub">
+                                <li><a href="#">인덕션</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="season_box"><a href="#">계절가전</a>
+                    <ul class="season_menu">
+                        <li class="seasonmachine">난방기기
+                            <ul class="season_sub">
+                                <li><a href="#">라디에이터</a></li>
+                                <li><a href="#">캡슐 히터</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="customer_box"><a href="#">고객지원</a>
+                    <ul class="customer_menu">
+                        <li class="customer_legal"><a href="#">해외 구매 제품 정책</a></li>
+                        <li class="customer_qna"><a href="#">자주 묻는 질문</a>
+                            <ul>
+                                <li><a href="#">커피</a></li>
+                                <li><a href="#">난방기기</a></li>
+                            </ul>
+                        </li>
+                        <li class="customer_as"><a href="#">A/S 센터</a></li>
+                        <li class="customer_inst"><a href="#">사용설명서</a></li>
+                    </ul>
+                    <ul class="customer_guide">
+                        <li class="customer_news"><a href="#">새소식</a></li>
+                        <li class="customer_video"><a href="#">사용법 동영상 가이드</a></li>
+                        <li class="customer_shop"><a href="#">판매처</a></li>
+                    </ul>
+                </li>
+                <li class="vipclub_box"><a href="#">VIP 클럽</a>
+                    <ul class="vip_menu">
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="main" class="main">
+        <section class="main_slider_wrap">
+            <h3 class="blind">메인 이미지</h3>
+            <ul class="main_slider">
+                <li class="a_main"><img src="./images/main/main345.jpg" alt="식감을 제대로 살리다 드롱기 에어프라이어 IDEAL FRY. 드롱기 에어프라이어 FH2396 BK">
+                </li>
+                <!-- <li class="b_main"><img src="#" alt="컴팩트한 사이즈의 프리미엄 커피머신">컴팩트한 사이즈의 프리미엄 커피머신 PRIMADONNA XS 프리미엄 커피머신</li>
+                <li class="c_main"><img src="#" alt="집에서 전문 카페 퀄리티의 커피를 즐기세요">집에서 전문 카페 퀄리티의 커피를 즐기세요. 안락한 홈카페 라이프, 드롱기</li>
+                <li class="d_main"><img src="#" alt="드롱기 아이코나 카페">나만의 완벽한 홈카페 라이프를 위한 아이코나 카페. 드롱기 아이코나 카페</li> -->
+            </ul>
+        </section>
+        <section class="main_contents">
+            <h3 class="blind">콘텐츠</h3>
+            <ul class="main_contents_wrap">
+                <li class="main_news contentbox"><a href="#">
+                        <p>새소식</p>
+                        <p>드롱기 뉴스를 만나보세요</p>
+                        <p>드롱기와 함께하는 새로운 이벤트, 뉴스, 클래스 등 소식을 확인해보세요.</p>
+                        <p>이벤트 소식 보기</p>
+                    </a>
+                </li>
+                <li class="main_service contentbox"><a href="#">
+                        <p>서비스 및 보증에 관한 주의사항</p>
+                        <p>해외 구매 제품 정책</p>
+                        <p>해외 구매 제품에 대한 정책을 읽어보세요.</p>
+                        <p>자세히 보기</p>
+                    </a></li>
+                <li class="main_vipclub contentbox"><a href="#">
+                        <p>드롱기 <span>VIP</span> 클럽</p>
+                        <p>프리미엄 멤버십 서비스</p>
+                        <p>커피를 사랑하는 당신을 위한 특별한 클럽 서비스에 가입하시고 모든 혜택을 누리세요.</p>
+                        <p>VIP 클럽 가입하기</p>
+                    </a></li>
+                <li class="main_as contentbox"><a href="#">
+                        <p>A/S 문의</p>
+                        <p>고객 센터로 연락주세요</p>
+                        <p>제품 사용법, 고장 수리 문의, A/S 등 각종 고객 상담이 가능합니다.</p>
+                        <p>문의하기</p>
+                    </a></li>
+                <li class="main_video contentbox"><a href="#">
+                        <p>동영상 가이드</p>
+                        <p>커피머신 사용법</p>
+                        <p>드롱기 전자동, 반자동 커피머신 사용법을 한글 자막 동영상으로 보실 수 있습니다.</p>
+                        <p>커피머신 사용법 보기</p>
+                    </a></li>
+                <li class="main_catalog contentbox"><a href="#">
+                        <p>드롱기 제품 카탈로그</p>
+                        <p>드롱기의 모든 제품을 한 눈에</p>
+                        <p>드롱기코리아에서 판매되는 모든 제품을 볼 수 있는 카탈로그입니다.</p>
+                        <p>카탈로그 보기</p>
+                    </a></li>
+                <li class="main_store contentbox"><a href="#">
+                        <p>드롱기 컨셉 스토어</p>
+                        <p>커피와 제품을 한 곳에서</p>
+                        <p>프리미엄 제품과 커피 체험을 할 수 있는 컨셉 스토어입니다.</p>
+                        <p>컨셉 스토어 보기</p>
+                    </a></li>
+                <li class="main_machine contentbox"><a href="#">
+                        <p>슬림형 반자동 커피머신</p>
+                        <p>홈 바리스타가 되세요!</p>
+                        <p>실버와 블랙의 슬림한 디자인과 함께 집에서 직접 바리스타가 되어보세요.</p>
+                        <p>반자동 커피머신 보기</p>
+                    </a></li>
+            </ul>
+            <div class="youtube"><a href="#">youtube</a></div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="footer_top_wrap">
+        <section class="footer_new">
+            <a href="#">새소식
+            </a>
+        </section>
+        <section class="footer_sitemap">
+            <h2 class="blind">사이트맵</h2>
+            <article class="footer_coffee">
+                <h4><a href="#">커피</a></h4>
+                <ul>
+                    <li class="footer_coffeemachine"><a href="#">커피머신</a>
+                        <ul>
+                            <li><a href="#">전자동 커피머신</a></li>
+                            <li><a href="#">전자동 커피머신</a></li>
+                            <li><a href="#">반자동 커피머신</a></li>
+                            <li><a href="#">콤비 커피머신</a></li>
+                            <li><a href="#">커피 그라인더</a></li>
+                            <li><a href="#">드립 커피메이커</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <article class="footer_kitchen">
+                <h4><a href="#">주방가전</a></h4>
+                <ul class="footer_kitchen_machine">
+                    <li class="footer_kitchenmachine"><a href="#">주방기기</a>
+                        <ul>
+                            <li><a href="#">전기 오븐</a></li>
+                            <li><a href="#">전기 주전자</a></li>
+                            <li><a href="#">토스터</a></li>
+                            <li><a href="#">전기 그릴</a></li>
+                        </ul>
+                    </li>
+                    <li class="footer_kitchenbreak"><a href="#">브랙퍼스트 컬렉션</a>
+                        <ul>
+                            <li><a href="#">아이코나</a></li>
+                            <li><a href="#">아이코나 빈티지</a></li>
+                            <li><a href="#">디스틴타</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <article class="footer_comfort">
+                <h4><a href="#">계절가전</a></h4>
+                <ul>
+                    <li class="footer_wintermachine"><a href="#">난방기기</a>
+                        <ul>
+                            <li><a href="#">세라믹 히터</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+            <article class="footer_delonghi">
+                <h4><a href="#">DE'LONGHI</a></h4>
+                    <ul>
+                        <li class="footer_delonghiservice"><a href="#">고객지원</a>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">사용설명서</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer_delonghilegal"><a href="#">개인정보보호정책</a></li>
+                        <li class="footer_delonghiltd">De'Longhi Korea Ltd.</li>
+                        <li class="footer_delonghiaddr">서울시 서초구 강남대로 623 <br> 드롱기 코리아 주식회사</li>
+                    </ul>
+            </article>
+            <div class="closing">
+                <a href="#">접기</a>
+            </div>
+        </section>
+        </div>
+        <section class="footer_copyright">
+            <h3 class="blind">정책 / 회사 정보</h3>
+            <article class="policy">
+                <h4 class="blind"><a href="#">정책</a></h4>
+                <ul>
+                    <li class="privacy_policy"><a href="#">개인정보보호정책</a></li>
+                    <li class="legal_note"><a href="#">법적고지</a></li>
+                </ul>
+            </article>
+            <article class="allrights">
+                <h4 class="blind"><a href="#">홈페이지 권리</a></h4>
+                <p>&#169; De’Longhi Appliances S.r.l. - Via L. Seitz, 47, 31100 Treviso, Italy - All rights reserved</p>
+            </article>
+            <article class="hometop">
+                <div class="home">홈으로</div>
+                <div class="top">상단으로</div>
+            </article>
+        </section>
+    </footer>
+</body>
+
+</html>

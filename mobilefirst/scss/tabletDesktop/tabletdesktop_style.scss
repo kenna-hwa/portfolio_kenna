@@ -1,0 +1,12 @@
+@import "../src/mixin";
+
+@include tabletDesktop {
+    
+
+@import "reset";
+@import "theader";
+@import "tmain";
+@import "tfooter";
+
+
+}

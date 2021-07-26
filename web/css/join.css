@@ -1,0 +1,648 @@
+@charset "utf-8";
+
+/* main */
+body{
+    font-size: 16px;
+}
+
+/* tamna join */
+.tamna_join {
+    position: relative;
+    width: 721px;
+    height: 310px;
+    margin: 150px auto 50px;
+}
+.tamna_join h2::before {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    content: "";
+    background: url(../images/apply/tamna_card_apply_logo.jpg) no-repeat;
+    top: -130px;
+    left: 50%;
+    margin-left: -41px;
+}
+.tamna_join h2 {
+    position: relative;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    text-align: center;
+    top: 130px;
+}
+.tamna_join_txt {
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    text-align: left;
+    top: 200px;
+    left: 50%;
+    margin-left: -145px;
+}
+
+/* tamna join order */
+
+
+.tamna_join_order {
+    position: relative;
+    width: 722px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    top:230px;
+    margin: 0 auto 50px;
+}
+.tamna_join_order1 {
+    display: block;
+    width: 33.22222222222%;
+    height: 39px;
+    background: #21bdbd;
+    border-right: 1px solid #dadada;
+    float: left;
+}
+.tamna_join_order2 {
+    display: block;
+    width: 33.22222222222%;
+    height: 40px;
+    border-right: 1px solid #dadada;
+    box-sizing: border-box;
+    float: left;
+}
+.tamna_join_order3 {
+    display: block;
+    width: 33.22222222222%;
+    height: 40px;
+    box-sizing: border-box;
+    float: left;
+}
+
+/* input element */
+.main {
+    position: relative;
+    width: 1080px;
+    height: 1470px;
+    margin: auto;
+}
+.chk_span1 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    box-sizing: border-box;
+}
+
+/* checkbox custom */
+
+.chkbox_all {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+    font-size: 16px;
+}
+.chk_label1  {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+.chkbox_all:checked~.chk_label1 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label1_txt {
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+}
+/* checkbox custom end */
+
+.chk_span2 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+#chkbox_2 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label2  {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_2:checked~.chk_label2 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label2_txt{
+    position: relative;
+    display: inline-block;
+    left: 50px;
+}
+.chk_label2_txt2 {
+    position: relative;
+    color: #555;
+}
+/* checkbox custom end */
+
+.chk_span3 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* checkbox custom */
+#chkbox_3 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+    font-size: 16px;
+}
+.chk_label3  {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_3:checked~.chk_label3 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label3_txt {
+    position: relative;
+    font-size: 16px;
+    margin-left: 50px;
+}
+/* checkbox custom end */
+
+.chk_span4 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/* checkbox custom */
+#chkbox_4 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label4  {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_4:checked~.chk_label4 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label4_txt {
+    position: relative;
+    font-size: 16px;
+    margin-left: 50px;
+}
+/* checkbox custom end */
+
+.chk_span5 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+#chkbox_5 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label5  {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_5:checked~.chk_label5 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label5_txt {
+    position: relative;
+    font-size: 16px;
+    margin-left: 50px;
+}
+/* checkbox custom end */
+
+.chk_span6 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+
+#chkbox_6 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label6 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_6:checked~.chk_label6 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label6_txt {
+    position: relative;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+/* checkbox custom end */
+
+.chk_span7 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+
+#chkbox_7 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label7  {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_7:checked~.chk_label7 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label7_txt {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/* checkbox custom end */
+
+.chk_span8 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* checkbox custom */
+
+#chkbox_8 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+    font-size: 16px;
+}
+.chk_label8 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_8:checked~.chk_label8 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label8_txt {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/* checkbox custom end */
+
+.chk_span9 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+
+#chkbox_9 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label9 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_9:checked~.chk_label9 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label9_txt {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/* checkbox custom end */
+
+.chk_span10 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+
+#chkbox_10 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+    font-size: 16px;
+}
+.chk_label10 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_10:checked~.chk_label10 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label10_txt {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/* checkbox custom end */
+
+.chk_span11 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+
+#chkbox_11 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label11 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+}
+#chkbox_11:checked~.chk_label11 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label11_txt {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/* checkbox custom end */
+
+.chk_span12 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* checkbox custom */
+
+#chkbox_12 {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0;
+}
+.chk_label12 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_unchecked.png) no-repeat;
+    margin: 25px 0 0 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#chkbox_12:checked~.chk_label12 {
+    display: inline-block;
+    width: 1080px;
+    height: 80px;
+    background: url(../images/join/join_checked.png) no-repeat;
+}
+.chk_label12_txt {
+    position: relative;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+/* checkbox custom end */
+
+/* tamna join checklist end */
+
+/* tamna join next btn */
+.tamna_join_next_btn {
+    display: block;
+    width: 350px;
+    height: 100px;
+    background: #21bdbd;
+    border: 1px solid #ddd;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 50px auto 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.tamna_join_next_btn:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}

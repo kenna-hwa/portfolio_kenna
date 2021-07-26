@@ -1,0 +1,277 @@
+
+
+/* footer start */
+
+.footer {
+    width: 100%;
+    background: #0c2745;
+    .footer_top_wrap{
+        width: 100%;
+        padding: 20px;
+        .footer_new {
+            width: 100%;
+            height: 15px;
+            a {
+                font-size: 0.7143rem;
+                color: #fff;
+                font-weight: 500;
+            }
+        }
+        .footer_sitemap {
+            position: relative;
+            width: 92%;
+            height: 80%;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #305075;
+            box-sizing: border-box;
+    
+            .footer_coffee {
+                line-height: 1.2rem;
+                letter-spacing: -0.5px;
+                h4 {
+                    font-size: 0.8571rem;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+    
+                    a {
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+                ul {
+                    font-size: 0.7143rem;
+                    margin-bottom: 35px;
+    
+                    .footer_coffeemachine {
+                        >a {
+                            font-weight: 500;
+                            color: #fff;
+                        }
+    
+                        ul {
+                            li {
+                                a {
+                                    color: #70adcc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer_kitchen {
+                line-height: 1.2rem;
+                letter-spacing: -0.5px;
+                h4 {
+                    font-size: 0.8571rem;
+                    font-weight: 400;
+                    margin-bottom: 12px;
+                    a {
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+                .footer_kitchen_machine{
+                    font-size: 0.7143rem;
+                    margin-bottom: 20px;
+                    .footer_kitchenmachine {
+                        >a {
+                            font-weight: 800;
+                            color: #fff;
+                        }
+                        ul {
+                            li {
+                                a {
+                                    color: #70adcc;
+                                }
+                            }
+                        }
+                    }
+                    .footer_kitchenbreak {
+                        margin-top: 20px;
+                        >a {
+                            font-weight: 800;
+                            color: #fff;
+                        }
+                        ul {
+                        margin-bottom: 35px;
+
+                            li {
+                                a {
+                                    color: #70adcc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer_comfort {
+                line-height: 1.1rem;
+                letter-spacing: -0.5px;
+                h4 {
+                    font-size: 0.8571rem;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                    a {
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+                ul {
+                    font-size: 0.7143rem;
+                    margin-bottom: 40px;
+    
+                    .footer_wintermachine {
+                        >a {
+                            font-weight: 500;
+                            color: #fff;
+                        }
+                        ul {
+                            li {
+                                a {
+                                    color: #70adcc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer_delonghi {
+                line-height: 1.1rem;
+                letter-spacing: -0.5px;
+                h4 {
+                    font-size: .9286rem;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    letter-spacing: -0.1px;
+                    a {
+                        font-weight: 400;
+                        color: #fff;
+                    }
+                }
+                ul{
+                    font-size: 0.7143rem;
+    
+                    .footer_delonghiservice {
+                        >a {
+                            font-weight: 800;
+                            color: #fff;
+                        }
+                        ul{
+                            margin-bottom: 20px;
+                            li{
+                                a{
+                                    color: #70adcc;
+                                }
+                            }
+                        }
+    
+                    }
+                    .footer_delonghilegal{
+                        margin-bottom: 20px;
+                        font-weight: 800;
+                        a{
+                            color: #fff;
+                        }
+                    }
+                    .footer_delonghiltd{
+                        margin-bottom: 20px;
+                        font-weight: 900;
+                        color: #fff;
+    
+                    }
+                    .footer_delonghiaddr{
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+            }
+            .closing{
+                position: absolute;
+                width: 34px;
+                height: 15px;
+                background: url(../../images/footer/closing345.jpg) no-repeat center;
+                text-indent: -9999px;
+                top: 20px;
+                right: 0;
+                a{
+                    display: block;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .footer_copyright {
+        display: flex;
+        width: 100%;
+        height: 93px;
+        background: #fff;
+        padding: 20px;
+        flex-flow: column nowrap;
+
+        .policy{
+            position: relative;
+            display: flex;
+            width: 95%;
+            justify-content: center;
+            border-top: 1px solid #ddd;
+            ul{
+                display: flex;
+                li{
+                    position: relative;
+                    top: -10px;
+                    font-size: 0.9286rem;
+                    letter-spacing: -0.5px;
+                    background: #fff;
+                    &:nth-child(1):after{
+                        content: "|";
+                        font-size: 20px;
+                        font-weight: 200;
+                        color: #888;
+                        margin: 10px;
+                        line-height: 5px;
+                    }
+                }
+            }
+        }
+        .allrights{
+            clear:both;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            p{
+                font-size:0.7143rem;
+                font-weight: 400;
+                color: #2e3551;
+                margin-top: 10px;
+            }
+        }
+        .hometop{
+            position: relative;
+            display: flex;
+            width: 95%;
+            height: 40px;
+            margin-top: 10px;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            cursor: pointer;
+            .home{
+                width: 40px;
+                height: 40px;
+                background: url(../../images/footer/home345.jpg) no-repeat center;
+                text-indent: -9999px;
+            }
+            .top{
+                width: 40px;
+                height: 40px;
+                background: url(../../images/footer/top345.jpg) no-repeat center;
+                text-indent: -9999px;
+            }
+        }
+    }
+}

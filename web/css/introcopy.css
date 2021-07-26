@@ -1,0 +1,634 @@
+@charset "utf-8";
+
+
+
+/* main */
+
+/* tamna howto */
+
+.tamna_howto {
+    width: 1010px;
+    height: 1271px;
+    margin: 0 auto 150px;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.tamna_howto h2 {
+    position: relative;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* tamna howto tap menu */
+
+.tamna_howto_tap_menu {
+    width: 724px;
+    height: 40px;
+    box-sizing: border-box;
+    margin: 0 auto 100px;
+    cursor: pointer;
+}
+ .tamna_howto_KB_title{
+    display: block;
+    width: 33.333%;
+    height: 39px;
+    border-top: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 37px;
+    float: left;
+    transition: all 0.1s ease-in-out;
+} 
+.tamna_howto_KB_title:hover {
+    width: 33.333%;
+    height: 39px;
+    font-weight: 400;
+    background: #21bdbd;
+    transition: all 0.1s ease-in-out;
+}
+
+ .tamna_howto_Kona_title{
+    display: block;
+    width: 33.333%;
+    height: 39px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 37px;
+    float: left;
+    transition: all 0.1s ease-in-out;
+} 
+.tamna_howto_Kona_title:hover {
+    width: 33.333%;
+    height: 39px;
+    font-weight: 400;
+    background: #21bdbd;
+    transition: all 0.1s ease-in-out;
+}
+.tamna_howto_Paper_title{
+    display: block;
+    width: 33.333%;
+    height: 39px;
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    background: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 37px;
+    float: left;
+    transition: all 0.1s ease-in-out;
+} 
+.tamna_howto_Paper_title:hover {
+    width: 33.333%;
+    height: 39px;
+    font-weight: 400;
+    background: #21bdbd;
+    transition: all 0.1s ease-in-out;
+}  
+
+  
+/* tamna howto KB */
+
+.tamna_howto_KB {
+    position: absolute;
+    display: block;
+    width: 1010px;
+    height: 1195px;
+    margin: auto;
+}
+
+/* tamna howto KB online */
+
+.tamna_howto_KB ul>li:nth-child(1) {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.tamna_howto_KB_on_1>img{
+    position: absolute;
+    width: 224px;
+    height: 413px;
+    top: -450px;
+    left: 0;
+}
+.tamna_howto_KB_on_1>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_KB_on_1 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 500px;
+    left: 0;
+    text-align: center;
+} 
+.tamna_howto_KB_on_1::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -300px;
+    left: 300px;
+}
+.tamna_howto_KB_on_2>img {
+    position: absolute;
+    width: 224px;
+    height: 413px;
+    top: -450px;
+    left: 13px;
+}
+.tamna_howto_KB_on_2>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_KB_on_2 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 500px;
+    left: 380px;
+    text-align: center;
+}
+.tamna_howto_KB_on_2::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -300px;
+    left: 310px;
+}
+.tamna_howto_KB_on_3>img {
+    position: absolute;
+    width: 224px;
+    height: 413px;
+    top: -450px;
+    left: -4px;
+}
+.tamna_howto_KB_on_3>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_KB_on_3 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 500px;
+    left: 790px;
+    text-align: center;
+} 
+
+/* tamna howto KB offline */
+
+.tamna_howto_KB ul>li:nth-child(2) {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 620px;
+}
+.tamna_howto_KB_off_1>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -35px;
+}
+.tamna_howto_KB_off_1>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_KB_off_1 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 320px;
+    left: 35px;
+    text-align: center;
+}
+.tamna_howto_KB_off_1::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -180px;
+    left: 265px;
+}
+.tamna_howto_KB_off_2>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    content: "";
+    top: -260px;
+    left: -48px;
+}
+.tamna_howto_KB_off_2>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_KB_off_2 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 320px;
+    left: 442px;
+    text-align: center;
+}
+.tamna_howto_KB_off_2::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -180px;
+    left: 250px;
+}
+.tamna_howto_KB_off_3>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -26px;
+}
+.tamna_howto_KB_off_3>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_KB_off_3 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 320px;
+    left: 812px;
+    text-align: center;
+} 
+
+/* tamna howto Kona */
+
+.tamna_howto_Kona {
+    position: absolute;
+    display: none;
+    width: 1010px;
+    height: 1195px;
+    margin: auto;
+}
+
+
+/* tamna howto Kona online */
+
+.tamna_howto_Kona ul>li:nth-child(1) {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.tamna_howto_Kona_on_1>img {
+    position: absolute;
+    width: 224px;
+    height: 413px;
+    top: -450px;
+    left: -18px;
+}
+.tamna_howto_Kona_on_1>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_Kona_on_1 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 500px;
+    left: 18px;
+    text-align: center;
+}
+.tamna_howto_Kona_on_1::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -300px;
+    left: 280px;
+}
+.tamna_howto_Kona_on_2>img {
+    position: absolute;
+    width: 224px;
+    height: 413px;
+    top: -450px;
+    left: 13px;
+}
+.tamna_howto_Kona_on_2>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_Kona_on_2 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 500px;
+    left: 380px;
+    text-align: center;
+}
+.tamna_howto_Kona_on_3>img {
+    position: absolute;
+    width: 224px;
+    height: 413px;
+    top: -450px;
+    left: -34px;
+}
+.tamna_howto_Kona_on_2::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -300px;
+    left: 310px;
+}
+.tamna_howto_Kona_on_3>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_Kona_on_3 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 500px;
+    left: 820px;
+    text-align: center;
+} 
+
+/* tamna howto Kona offline */
+
+.tamna_howto_Kona ul>li:nth-child(2) {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 620px;
+}
+.tamna_howto_Kona_off_1>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -75px;
+}
+.tamna_howto_Kona_off_1>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_Kona_off_1 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 320px;
+    left: 75px;
+    text-align: center;
+}
+.tamna_howto_Kona_off_1::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -180px;
+    left: 220px;
+}
+.tamna_howto_Kona_off_2>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -48px;
+}
+.tamna_howto_Kona_off_2>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_Kona_off_2 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 320px;
+    left: 442px;
+    text-align: center;
+}
+.tamna_howto_Kona_off_2::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -180px;
+    left: 250px;
+}
+.tamna_howto_Kona_off_3>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -34px;
+}
+.tamna_howto_Kona_off_3>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_Kona_off_3 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 320px;
+    left: 820px;
+    text-align: center;
+} 
+
+/* tamna howto paper */
+
+.tamna_howto_paper {
+    position: absolute;
+    display: none;
+    width: 1010px;
+    height: 1195px;
+    margin: auto;
+}
+
+/* tamna howto paper offline */
+
+.tamna_howto_paper ul>li:nth-child(1) {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.tamna_howto_paper_off_1>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -75px;
+}
+.tamna_howto_paper_off_1>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_paper_off_1 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 323px;
+    left: 75px;
+    text-align: center;
+}
+.tamna_howto_paper_off_1::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -200px;
+    left: 225px;
+}
+.tamna_howto_paper_off_2>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -48px;
+}
+.tamna_howto_paper_off_2>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_paper_off_2 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 323px;
+    left: 400px;
+    text-align: center;
+}
+.tamna_howto_paper_off_2::after {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 56px;
+    background: url(../images/intro/tamna_howto_arrow.jpg) no-repeat;
+    content: "";
+    top: -200px;
+    left: 295px;
+}
+.tamna_howto_paper_off_3>img {
+    position: absolute;
+    width: 224px;
+    height: 225px;
+    top: -260px;
+    left: -34px;
+}
+.tamna_howto_paper_off_3>span {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tamna_howto_paper_off_3 {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: 323px;
+    left: 820px;
+    text-align: center;
+} 
+.tamna_howto_paper_img {
+    position: relative;
+    width: 665px;
+    height: 295px;
+    left: 50%;
+    margin: 510px 0 100px -325px;
+}
+.tamna_howto_paper_txt{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.tamna_howto_button {
+    width: 350px;
+    height: 100px;
+    border: 1px solid #888;
+    text-align: center;
+    margin: 0 auto 150px;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 95px;
+}
+.tamna_howto_button a {
+    display: block;
+    height: 100%;
+    color: #111;
+    transition: all 0.2s ease-out;
+}
+.tamna_howto_button a::after {
+    content: " ❭❭";
+    color: #21bdbd;
+    transition: all 0.2s ease-out;
+}
+.tamna_howto_button a:hover {
+    background: #21bdbd;
+    transition: all 0.2s ease-in-out;
+}
+.tamna_howto_button a:hover::after {
+    color: #fff;
+    transition: all 0.15s ease-in-out;
+}
+
+/* main end */

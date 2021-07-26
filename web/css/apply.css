@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* main */
+
+/* tamna_card_apply */
+
+.tamna_card_apply {
+    position: relative;
+    width: 770px;
+    height: 525px;
+    margin: 150px auto 150px;
+}
+.tamna_card_apply h2::before {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    content: "";
+    background: url(../images/apply/tamna_card_apply_logo.jpg) no-repeat;
+    top: -130px;
+    left: 50%;
+    margin-left: -41px;
+}
+.tamna_card_apply h2 {
+    position: relative;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    text-align: center;
+    top: 130px;
+}
+.tamna_card_apply_txt {
+    position: absolute;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 22px;
+    text-align: left;
+    top: 215px;
+    left: 52px;
+}
+.tamna_card_apply_txt ul li {
+    list-style-type: "\2D \20\20";
+}
+.tamna_card_apply_bank {
+    position: relative;
+    width: 770px;
+    height: 155px;
+    margin: auto;
+    top: 350px;
+}
+.tamna_card_apply_bank ul a{
+    display: block;
+    height: 100%;
+}
+.tamna_card_apply_bank ul li:nth-child(1) {
+    width: 200px;
+    height: 154px;
+    background: url(../images/apply/tamna_card_apply_bank_KB.jpg) no-repeat;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    float: left;
+    transition: all 0.25s ease-in-out;
+}
+.tamna_card_apply_bank ul li:nth-child(1):hover {
+    border: 1px solid #ccc;
+}
+.tamna_card_apply_bank ul li:nth-child(2) {
+    position: absolute;
+    width: 200px;
+    height: 154px;
+    background: url(../images/apply/tamna_card_apply_bank_Kona.jpg) no-repeat;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    float: left;
+    left: 290px;
+    transition: all 0.25s ease-in-out;
+}
+.tamna_card_apply_bank ul li:nth-child(2):hover {
+    border: 1px solid #ccc;
+}
+.tamna_card_apply_bank ul li:nth-child(3) {
+    position: relative;
+    width: 200px;
+    height: 73px;
+    background: url(../images/apply/tamna_card_apply_bank_NH.jpg) no-repeat;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    text-indent: -9999px;
+    left: 570px;
+    transition: all 0.25s ease-in-out;
+}
+.tamna_card_apply_bank ul li:nth-child(3):hover {
+    border: 1px solid #ccc;
+}
+.tamna_card_apply_bank ul li:nth-child(4) {
+    position: absolute;
+    width: 200px;
+    height: 73px;
+    background: url(../images/apply/tamna_card_apply_bank_Jeju.jpg) no-repeat;
+    border: 1px solid #eee;
+    text-indent: -9999px;
+    top: 79px;
+    left: 570px;
+    transition: all 0.25s ease-in-out;
+}
+.tamna_card_apply_bank ul li:nth-child(4):hover {
+    border: 1px solid #ccc;
+}

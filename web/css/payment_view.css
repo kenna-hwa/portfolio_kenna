@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+/* main */
+
+/* tamna_card_apply */
+
+.tamna_payment_view {
+    position: relative;
+    width: 720px;
+    height: 470px;
+    margin: 150px auto 50px;
+}
+.tamna_payment_view h2::before {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    content: "";
+    background: url(../images/apply/tamna_card_apply_logo.jpg) no-repeat;
+    top: -130px;
+    left: 50%;
+    margin-left: -41px;
+}
+.tamna_payment_view h2 {
+    position: relative;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: -3px;
+    text-align: center;
+    top: 130px;
+}
+.tamna_payment_view h2::after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 140px;
+    height: 140px;
+    background: url(../images/payment_view/paymen_view_icon.jpg) no-repeat;
+    top: 35px;
+    left: 290px;
+}
+.tamna_payment_view_txt {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+    top: 380px;
+    left: 190px;
+}
+
+.tamna_payment_view_txt span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.tamna_payment_view_link {
+    width: 720px;
+    height: 100px;
+    margin: 0 auto 150px;
+}
+.tamna_payment_view_link a {
+    display: block;
+    height: 100%;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 90px;
+}
+.card_apply a{
+    display: block;
+    width: 350px;
+    height: 100px;
+    background: #21bdbd;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    float: left;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #fff;
+    line-height: 90px;
+    transition: all 0.2s ease-in-out;
+}
+.card_apply a:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #21bdbd;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+.tamna_signin a{
+    display: block;
+    width: 350px;
+    height: 100px;
+    background: #fff;
+    border: 1px solid #21bdbd;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+    line-height: 90px;
+    transition: all 0.2s ease-in-out;
+}
+.tamna_signin a:hover {
+    background: #21bdbd;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}

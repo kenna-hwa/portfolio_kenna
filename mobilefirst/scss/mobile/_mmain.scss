@@ -1,0 +1,513 @@
+
+/* main start */
+
+.main {
+    width: 100%;
+    overflow: hidden;
+
+    .main_slider_wrap {
+        width: 100%;
+        overflow: hidden;
+
+        .main_slider {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+
+            .a-main {
+                position: absolute;
+                width: 100%;
+            }
+        }
+    }
+
+    .main_contents {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        padding: 10px;
+        box-sizing: border-box;
+        background: #fff;
+
+        .main_contents_wrap {
+            width: 100%;
+            overflow: hidden;
+            box-sizing: border-box;
+            margin-top: 28px;
+            background: #fff;
+        }
+
+        // 박스 전체
+        .contentbox {
+            height: 192px;
+            border: 1px solid #999;
+            padding: 10px 10px 10px 260px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            overflow-y: hidden;
+            word-break: break-all;
+            white-space: normal;
+            letter-spacing: 0.01rem;
+        }
+
+        .contentbox:hover {
+            border: 1px solid #44b1e7;
+            box-sizing: border-box;
+
+            p {
+                &:nth-child(1) {
+                    text-decoration: underline;
+                }
+
+                &:nth-child(4) {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+        .main_news {
+            position: relative;
+
+            p {
+                position: relative;
+
+                &:nth-child(1) {
+                    margin-top: 10px;
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: -10px;
+                    left: -250px;
+                    background: url(../../images/main/aimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_service {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/bimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_vipclub {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+
+                    span {
+                        font-weight: 900;
+                    }
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/cimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_as {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+
+                    span {
+                        font-weight: 900;
+                    }
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/dimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_video {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+
+                    span {
+                        font-weight: 900;
+                    }
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/eimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_catalog {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+
+                    span {
+                        font-weight: 900;
+                    }
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/fimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_store {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+
+                    span {
+                        font-weight: 900;
+                    }
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/gimg345.jpg) no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .main_machine {
+            position: relative;
+
+            p {
+                &:nth-child(1) {
+                    margin-top: 10px;
+
+                    span {
+                        font-weight: 900;
+                    }
+                }
+
+                &:nth-child(1)::before {
+                    position: absolute;
+                    display: inline-block;
+                    content: "";
+                    width: 240px;
+                    height: 170px;
+                    top: 10px;
+                    left: 10px;
+                    background: url(../../images/main/himg345.jpg)no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    font-size: 1.143rem;
+                    margin-top: 13px;
+                    margin-bottom: 10px;
+                }
+
+                &:nth-child(3) {
+                    margin-bottom: 15px;
+                }
+
+                &:nth-child(4) {
+                    position: relative;
+                    font-size: 0.8571rem;
+                    color: #70adcc;
+                    font-weight: 600;
+                    left: 10px;
+                }
+
+                &:nth-child(4)::before {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    width: 5px;
+                    height: 11px;
+                    background: url(../../images/main/triangle345.jpg) no-repeat center;
+                    top: 4px;
+                    left: -8px
+                }
+            }
+        }
+
+        .youtube {
+            margin-top: 45px;
+
+            a {
+                width: 47px;
+                height: 20px;
+                display: block;
+                background: url(../../images/main/youtube345.jpg) no-repeat center;
+                text-indent: -9999px;
+            }
+        }
+    }
+}
+
+/* main end */
