@@ -41,8 +41,9 @@
         .user_menu {
             position: relative;
             display: flex;
-            width: 25%;
+            width: 220px;
             height: 100%;
+            margin-left: 130px;
             justify-content: space-between;
 
             .user_menu_li{
@@ -147,6 +148,8 @@
         background: burlywood;
 
         .nav_menu{
+            position: relative;
+
             width: 97%;
             height: 100%;
             margin: 0 auto;
@@ -156,12 +159,13 @@
             .coffee_box{
                 position: absolute;
                 top: -35px;
-                margin-top: 1px;
                 
                 >a{
+                    position: absolute;
+                    left: -4px;
                     display: block;
-                    width: 60px;
-                    height: 40px;
+                    width: 80px;
+                    height: 35px;
                     text-align: center;
                     border-top: 4px solid rgba(255, 255, 255, 0); 
                 }
@@ -170,13 +174,66 @@
                     border-top: 4px solid saddlebrown;
                     box-sizing: border-box;
                 }
+
                 .coffee_menu{
-                    position: relative;
-                    width: 260%;
-                    height: 100%;
-                    background: red;
+                    position: absolute;
+                    display: block;
+                    width: 96.5vw;
+                    height: 240px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    border: 1px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+
+                    .coffeemachine{
+                        >a{
+                            color: #67d5e3;
+                        }
+                        padding-left: 190px;
+                        border-bottom: 1px solid #999;
+
+                        .coffeemachine_sub{
+                            margin-top: 5px;
+                            margin-bottom: 16px;
+
+                            li{
+                                &:nth-child(1)::before{
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 135px;
+                                    height: 135px;
+                                    content:"";
+                                    background: url(../../images/header/navcoffee678.jpg) no-repeat center;
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .coffeerecipe{
+                        position: relative;
+                        top: 17px;
+                        left: 10px;
+                        float: left;
+                        margin-right: 20px;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .coffeelounge{
+                        position: relative;
+                        top: 17px;
+                        left: 10px;
+                        float: left;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
                     
-                
                 }
 
             }
