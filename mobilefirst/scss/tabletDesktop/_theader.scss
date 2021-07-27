@@ -25,7 +25,6 @@
         .header_menu{
             width: 75%;
             height: 100%;
-            background: yellow;
             
             .logo {
                 height: 80px;
@@ -145,7 +144,6 @@
     nav{
         position: relative;
         width: 100%;
-        background: burlywood;
 
         .nav_menu{
             position: relative;
@@ -164,37 +162,44 @@
                     position: absolute;
                     left: -4px;
                     display: block;
-                    width: 80px;
-                    height: 35px;
+                    width: 60px;
+                    height: 38px;
                     text-align: center;
                     border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #fff;
+
                 }
                 >a:hover{
                     background: #fff;
                     border-top: 4px solid saddlebrown;
                     box-sizing: border-box;
+                    color: saddlebrown;
                 }
 
                 .coffee_menu{
                     position: absolute;
                     display: block;
                     width: 96.5vw;
-                    height: 240px;
+                    height: 245px;
                     top: 35px;
                     left: -5px;
                     margin: 0 auto;
                     padding: 10px;
-                    border: 1px solid #888;
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid darkblue;
                     box-sizing: border-box;
                     line-height: 1.4rem;
                     background: #fff;
+                    visibility: hidden;
 
                     .coffeemachine{
                         >a{
                             color: #67d5e3;
                         }
                         padding-left: 190px;
-                        border-bottom: 1px solid #999;
+                        border-bottom: 1px solid #ddd;
 
                         .coffeemachine_sub{
                             margin-top: 5px;
@@ -237,6 +242,330 @@
                 }
 
             }
+
+            .kitchen_box{
+                position: absolute;
+                top: -35px;
+
+                >a{
+                    position: absolute;
+                    left: 64px;
+                    display: block;
+                    width: 90px;
+                    height: 38px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #fff;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid burlywood;
+                    box-sizing: border-box;
+                    color: burlywood;
+                }
+
+                .kitchen_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: column wrap;
+                    width: 96.5vw;
+                    height: 380px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #333;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+
+
+                    .kitchenmachine{
+                        margin-bottom: 15px;
+                        padding-left: 190px;
+
+                        .kitchenmachine_sub{
+                            margin-top: 3px;
+
+                            li{
+                                &:nth-child(1)::before{
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 135px;
+                                    height: 135px;
+                                    content:"";
+                                    background: url(../../images/header/navcoffee678.jpg) no-repeat center;
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                            
+                        }
+                    }
+                    .kitchenbreak{
+                        padding-left: 190px;
+
+                        .kitchenbreak_sub{
+                            margin-top: 3px;
+                        }
+                    }
+                    .kitcheninduction{
+                        .kitcheninduction_sub{
+                            margin-top: 3px;
+                        }
+                    }
+
+                }
+
+            }
+
+            .season_box{
+                position: absolute;
+                top: -35px;
+
+                >a{
+                    position: absolute;
+                    left: 155px;
+                    display: block;
+                    width: 80px;
+                    height: 35px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #fff;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid powderblue;
+                    box-sizing: border-box;
+                    color:powderblue;
+                }
+
+                .season_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: column wrap;
+                    width: 96.5vw;
+                    height: 180px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+
+                    .seasonmachine{
+                        margin-bottom: 15px;
+                        padding-left: 190px;
+
+                        .seasonmachine_sub{
+                            margin-top: 3px;
+
+                            li{
+                                &:nth-child(1)::before{
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 135px;
+                                    height: 135px;
+                                    content:"";
+                                    background: url(../../images/header/navcoffee678.jpg) no-repeat center;
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+
+            }
+
+            .customer_box{
+                position: absolute;
+                top: -35px;
+                >a{
+                    position: absolute;
+                    left: 245px;
+                    display: block;
+                    width: 80px;
+                    height: 35px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #67d5e3;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid #67d5e3;
+                    box-sizing: border-box;
+                    color: #67d5e3;
+
+                }
+                .customer_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 96.5vw;
+                    height: 180px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    align-content:flex-start;
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+
+                    .customer_legal{
+                        width: 50%;
+                        height: 12%;
+                        order: 1;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_qna{
+                        width: 50%;
+                        height: 40%;
+                        order: 3;
+                        >a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_as{
+                        width: 50%;
+                        height: 12%;
+                        position: relative;
+                        order: 2;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_inst{
+                        width: 50%;
+                        height: 40%;
+                        position: relative;
+                        order: 4;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                }
+                .customer_guide{
+                    position: relative;
+                    width: 94.5vw;
+                    height: 40px;
+                    top: 150px;
+                    left: 6px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    visibility: hidden;
+
+                    .customer_news{
+                        width: 50%;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_video{
+                        width: 50%;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_shop{
+                        width: 50%;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                }
+
+
+            }
+
+            .vipclub_box{
+                position: absolute;
+                top: -35px;
+
+                >a{
+                    position: absolute;
+                    left: 335px;
+                    display: block;
+                    width: 80px;
+                    height: 35px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #67d5e3;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid #67d5e3;
+                    box-sizing: border-box;
+                    color: #67d5e3;
+                }
+
+                .vip_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 96.5vw;
+                    height: 30px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+
+                }
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 
