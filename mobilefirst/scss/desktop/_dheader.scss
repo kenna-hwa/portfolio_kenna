@@ -52,8 +52,8 @@
                 align-items: flex-start;
                 .new{
                     display: block;
-                    width: 43%;
-                    height: 25%;
+                    width: 20%;
+                    height: 50%;
                     text-align: center;
                     padding-top: 6px;
                     box-sizing: border-box;
@@ -65,8 +65,8 @@
                 }
                 .country{
                     position: relative;
-                    width: 55%;
-                    height: 25%;
+                    width: 70%;
+                    height: 50%;
                     text-indent: -9999px;
                     overflow: hidden;
                     ul{
@@ -84,6 +84,7 @@
                             align-items: center;
 
                             &:nth-child(1)::after{
+                                position: relative;
                                 display: inline-block;
                                 width: 10px;
                                 height: 5px;
@@ -147,9 +148,10 @@
         
         .nav_menu{
             position: relative;
-            width: 97%;
+            width: 100%;
             margin: 0 auto;
-            padding: 10px;
+            padding-left: 155px;
+            background: red;
 
             .coffee_box{
                 position: absolute;
@@ -177,10 +179,10 @@
                 .coffee_menu{
                     position: absolute;
                     display: block;
-                    width: 96.5vw;
+                    width: 50.5vw;
                     height: 245px;
                     top: 35px;
-                    left: -5px;
+                    left: -155px;
                     margin: 0 auto;
                     padding: 10px;
                     border-left: 1.5px solid #000;
@@ -190,6 +192,7 @@
                     line-height: 1.4rem;
                     background: #fff;
                     visibility: hidden;
+                    z-index: 10;
 
                     .coffeemachine{
                         >a{
@@ -266,10 +269,10 @@
                     position: absolute;
                     display: flex;
                     flex-flow: column wrap;
-                    width: 96.5vw;
+                    width: 53vw;
                     height: 380px;
                     top: 35px;
-                    left: -5px;
+                    left: -50px;
                     margin: 0 auto;
                     padding: 10px;
                     
@@ -280,7 +283,7 @@
                     line-height: 1.4rem;
                     background: #fff;
                     visibility: hidden;
-
+                    z-index: 10;
 
                     .kitchenmachine{
                         margin-bottom: 15px;
@@ -347,10 +350,10 @@
                     position: absolute;
                     display: flex;
                     flex-flow: column wrap;
-                    width: 96.5vw;
+                    width: 50vw;
                     height: 180px;
                     top: 35px;
-                    left: -5px;
+                    left: 0px;
                     margin: 0 auto;
                     padding: 10px;
                     
@@ -361,6 +364,7 @@
                     line-height: 1.4rem;
                     background: #fff;
                     visibility: hidden;
+                    z-index: 10;
 
                     .seasonmachine{
                         margin-bottom: 15px;
@@ -413,10 +417,10 @@
                     position: absolute;
                     display: flex;
                     flex-flow: row wrap;
-                    width: 96.5vw;
+                    width: 40vw;
                     height: 180px;
                     top: 35px;
-                    left: -5px;
+                    left: 50px;
                     margin: 0 auto;
                     padding: 10px;
                     align-content:flex-start;
@@ -427,6 +431,7 @@
                     line-height: 1.4rem;
                     background: #fff;
                     visibility: hidden;
+                    z-index: 10;
 
                     .customer_legal{
                         width: 50%;
@@ -464,14 +469,15 @@
                     }
                 }
                 .customer_guide{
-                    position: relative;
-                    width: 94.5vw;
+                    position: absolute;
+                    width: 40vw;
                     height: 40px;
                     top: 150px;
-                    left: 6px;
+                    left: 60px;
                     display: flex;
                     flex-flow: column wrap;
                     visibility: hidden;
+                    z-index: 10;
 
                     .customer_news{
                         width: 50%;
@@ -492,8 +498,6 @@
                         }
                     }
                 }
-
-
             }
 
             .vipclub_box{
@@ -522,10 +526,10 @@
                     position: absolute;
                     display: flex;
                     flex-flow: row wrap;
-                    width: 96.5vw;
+                    width: 40vw;
                     height: 30px;
                     top: 35px;
-                    left: -5px;
+                    left: 150px;
                     margin: 0 auto;
                     padding: 10px;
                     border-left: 1.5px solid #000;
@@ -535,6 +539,7 @@
                     line-height: 1.4rem;
                     background: #fff;
                     visibility: hidden;
+                    z-index: 10;
 
                 }
 

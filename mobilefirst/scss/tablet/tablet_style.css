@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media (min-width: 758px) {
+@media (min-width: 758px) and (max-width: 1023px) {
   /* css reset */
   /* block 요소 m,p reset */
   body,
@@ -176,6 +176,7 @@
             align-items: center;
   }
   .header .header_top .user_menu .user_menu_li .country ul li:nth-child(1)::after {
+    position: relative;
     display: inline-block;
     width: 10px;
     height: 5px;
@@ -280,6 +281,7 @@
     line-height: 1.4rem;
     background: #fff;
     visibility: hidden;
+    z-index: 10;
   }
   .header nav .nav_menu .coffee_box .coffee_menu .coffeemachine {
     padding-left: 190px;
@@ -366,6 +368,7 @@
     line-height: 1.4rem;
     background: #fff;
     visibility: hidden;
+    z-index: 10;
   }
   .header nav .nav_menu .kitchen_box .kitchen_menu .kitchenmachine {
     margin-bottom: 15px;
@@ -438,6 +441,7 @@
     line-height: 1.4rem;
     background: #fff;
     visibility: hidden;
+    z-index: 10;
   }
   .header nav .nav_menu .season_box .season_menu .seasonmachine {
     margin-bottom: 15px;
@@ -503,6 +507,7 @@
     line-height: 1.4rem;
     background: #fff;
     visibility: hidden;
+    z-index: 10;
   }
   .header nav .nav_menu .customer_box .customer_menu .customer_legal {
     width: 50%;
@@ -560,6 +565,7 @@
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
     visibility: hidden;
+    z-index: 10;
   }
   .header nav .nav_menu .customer_box .customer_guide .customer_news {
     width: 50%;
@@ -624,6 +630,7 @@
     line-height: 1.4rem;
     background: #fff;
     visibility: hidden;
+    z-index: 10;
   }
   /* header end */
   footer {
@@ -1212,4 +1219,4 @@
     display: none;
   }
 }
-/*# sourceMappingURL=tabletdesktop_style.css.map */
+/*# sourceMappingURL=tablet_style.css.map */

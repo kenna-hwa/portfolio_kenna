@@ -1,0 +1,556 @@
+/* tabletDesktop */
+
+
+@charset "utf-8";
+
+/* header start */
+
+/*  header top bar */
+.header {
+    width: 100%;
+    height: 103px;
+    position: relative;
+    background: #0c2745;
+
+    .header_top{
+        position:relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        .header_menu{
+            width: 75%;
+            height: 100%;
+            
+            .logo {
+                height: 80px;
+                background: url(../../images/header/logo345.jpg) no-repeat left;
+                text-indent: -9999px;
+            }
+            a {
+                display: block;
+                height: 100%;
+            }
+        }
+
+        .user_menu {
+            position: relative;
+            display: flex;
+            width: 220px;
+            height: 100%;
+            margin-left: 130px;
+            justify-content: space-between;
+
+            .user_menu_li{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                .new{
+                    display: block;
+                    width: 43%;
+                    height: 25%;
+                    text-align: center;
+                    padding-top: 6px;
+                    box-sizing: border-box;
+                    margin-right: 2%;
+                    a{
+                        font-size: 0.786rem;
+                        color: #fff;
+                    }
+                }
+                .country{
+                    position: relative;
+                    width: 55%;
+                    height: 25%;
+                    text-indent: -9999px;
+                    overflow: hidden;
+                    ul{
+                        position: absolute;
+                        width: 90%;
+                        top: 0;
+                        line-height: 2rem;
+                        text-indent: 0;
+                        a{  display: inline-block;
+                            font-size: 0.786rem;
+                            color: #fff;
+                        }
+                        li{
+                            display: flex;
+                            align-items: center;
+
+                            &:nth-child(1)::after{
+                                position: relative;
+                                display: inline-block;
+                                width: 10px;
+                                height: 5px;
+                                content: "";
+                                background: url(../../images/header/tri678.png) no-repeat;
+                                margin-left: 10px;
+
+                            }
+                            &:nth-child(1)::before{
+                                display: inline-block;
+                                width: 18px;
+                                height: 18px;
+                                content: "";
+                                background: url(../../images/header/country678.jpg) no-repeat;
+                                margin-right: 10px;
+                            }
+                            
+                        }
+                    }
+
+                }
+                .search {
+                    width: 100%;
+                    height: 65%;
+                    align-items: flex-start;
+                    margin-left: 15px;
+                    #search_input{
+                        float: left;
+                        width: 70%;
+                        height: 20px;
+                        border-bottom: 1px solid #999; 
+                        
+                        &::placeholder{
+                            font-size: 0.714rem;
+                            color: #999;
+                        }
+                    }
+                    .submitBtn{
+                        float: left;
+                        width: 10%;
+                        margin-left: 5px;
+                        color: rgba(255, 255, 255, 0);
+                        background: url(../../images/header/search678.png) no-repeat;
+                    }
+                   
+                }
+                .ham{
+                    display: none;
+                }
+            }
+
+
+        }
+
+    } /* header top end */
+
+
+    nav{
+        position: relative;
+        width: 100%;
+        
+        .nav_menu{
+            position: relative;
+            width: 97%;
+            margin: 0 auto;
+            padding: 10px;
+
+            .coffee_box{
+                position: absolute;
+                top: -35px;
+                
+                >a{
+                    position: absolute;
+                    left: -4px;
+                    display: block;
+                    width: 60px;
+                    height: 38px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #fff;
+
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid saddlebrown;
+                    box-sizing: border-box;
+                    color: saddlebrown;
+                }
+
+                .coffee_menu{
+                    position: absolute;
+                    display: block;
+                    width: 96.5vw;
+                    height: 245px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid darkblue;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+                    z-index: 10;
+
+                    .coffeemachine{
+                        >a{
+                            color: #67d5e3;
+                        }
+                        padding-left: 190px;
+                        border-bottom: 1px solid #ddd;
+
+                        .coffeemachine_sub{
+                            margin-top: 5px;
+                            margin-bottom: 16px;
+
+                            li{
+                                &:nth-child(1)::before{
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 135px;
+                                    height: 135px;
+                                    content:"";
+                                    background: url(../../images/header/navcoffee678.jpg) no-repeat center;
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .coffeerecipe{
+                        position: relative;
+                        top: 17px;
+                        left: 10px;
+                        float: left;
+                        margin-right: 20px;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .coffeelounge{
+                        position: relative;
+                        top: 17px;
+                        left: 10px;
+                        float: left;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    
+                }
+
+            }
+
+            .kitchen_box{
+                position: absolute;
+                top: -35px;
+
+                >a{
+                    position: absolute;
+                    left: 64px;
+                    display: block;
+                    width: 90px;
+                    height: 38px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #fff;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid burlywood;
+                    box-sizing: border-box;
+                    color: burlywood;
+                }
+
+                .kitchen_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: column wrap;
+                    width: 96.5vw;
+                    height: 380px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #333;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+                    z-index: 10;
+
+                    .kitchenmachine{
+                        margin-bottom: 15px;
+                        padding-left: 190px;
+
+                        .kitchenmachine_sub{
+                            margin-top: 3px;
+
+                            li{
+                                &:nth-child(1)::before{
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 135px;
+                                    height: 135px;
+                                    content:"";
+                                    background: url(../../images/header/navcoffee678.jpg) no-repeat center;
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                            
+                        }
+                    }
+                    .kitchenbreak{
+                        padding-left: 190px;
+
+                        .kitchenbreak_sub{
+                            margin-top: 3px;
+                        }
+                    }
+                    .kitcheninduction{
+                        .kitcheninduction_sub{
+                            margin-top: 3px;
+                        }
+                    }
+
+                }
+
+            }
+
+            .season_box{
+                position: absolute;
+                top: -35px;
+
+                >a{
+                    position: absolute;
+                    left: 155px;
+                    display: block;
+                    width: 80px;
+                    height: 35px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #fff;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid powderblue;
+                    box-sizing: border-box;
+                    color:powderblue;
+                }
+
+                .season_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: column wrap;
+                    width: 96.5vw;
+                    height: 180px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+                    z-index: 10;
+
+                    .seasonmachine{
+                        margin-bottom: 15px;
+                        padding-left: 190px;
+
+                        .seasonmachine_sub{
+                            margin-top: 3px;
+
+                            li{
+                                &:nth-child(1)::before{
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 135px;
+                                    height: 135px;
+                                    content:"";
+                                    background: url(../../images/header/navcoffee678.jpg) no-repeat center;
+                                    top: 20px;
+                                    left: 20px;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+
+            }
+
+            .customer_box{
+                position: absolute;
+                top: -35px;
+                >a{
+                    position: absolute;
+                    left: 245px;
+                    display: block;
+                    width: 80px;
+                    height: 35px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #67d5e3;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid #67d5e3;
+                    box-sizing: border-box;
+                    color: #67d5e3;
+
+                }
+                .customer_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 96.5vw;
+                    height: 180px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    align-content:flex-start;
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+                    z-index: 10;
+
+                    .customer_legal{
+                        width: 50%;
+                        height: 12%;
+                        order: 1;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_qna{
+                        width: 50%;
+                        height: 40%;
+                        order: 3;
+                        >a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_as{
+                        width: 50%;
+                        height: 12%;
+                        position: relative;
+                        order: 2;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_inst{
+                        width: 50%;
+                        height: 40%;
+                        position: relative;
+                        order: 4;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                }
+                .customer_guide{
+                    position: relative;
+                    width: 94.5vw;
+                    height: 40px;
+                    top: 150px;
+                    left: 6px;
+                    display: flex;
+                    flex-flow: column wrap;
+                    visibility: hidden;
+                    z-index: 10;
+
+                    .customer_news{
+                        width: 50%;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_video{
+                        width: 50%;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                    .customer_shop{
+                        width: 50%;
+                        a{
+                            color: #67d5e3;
+                        }
+                    }
+                }
+
+
+            }
+
+            .vipclub_box{
+                position: absolute;
+                top: -35px;
+
+                >a{
+                    position: absolute;
+                    left: 335px;
+                    display: block;
+                    width: 80px;
+                    height: 35px;
+                    text-align: center;
+                    border-top: 4px solid rgba(255, 255, 255, 0); 
+                    z-index: 10;
+                    color: #67d5e3;
+                }
+                >a:hover{
+                    background: #fff;
+                    border-top: 4px solid #67d5e3;
+                    box-sizing: border-box;
+                    color: #67d5e3;
+                }
+
+                .vip_menu{
+                    position: absolute;
+                    display: flex;
+                    flex-flow: row wrap;
+                    width: 96.5vw;
+                    height: 30px;
+                    top: 35px;
+                    left: -5px;
+                    margin: 0 auto;
+                    padding: 10px;
+                    border-left: 1.5px solid #000;
+                    border-right: 1.5px solid #000;
+                    border-bottom: 5px solid #888;
+                    box-sizing: border-box;
+                    line-height: 1.4rem;
+                    background: #fff;
+                    visibility: hidden;
+                    z-index: 10;
+
+                }
+
+            }
+        }
+    }
+
+}/* header end */
+
+
+footer{
+    display: none;
+}
