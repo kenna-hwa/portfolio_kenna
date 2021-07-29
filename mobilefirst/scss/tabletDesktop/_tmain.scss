@@ -41,7 +41,7 @@
                 padding: 10px;
                 height: 280px;
                 border: 1px solid #ddd;
-                margin-bottom: 20px;
+                margin-bottom: 30px;
 
                 &:hover{
                     border: 1px solid #67d5e3;
@@ -74,7 +74,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/aimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -116,7 +116,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/bimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -155,7 +155,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/cimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -194,7 +194,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/dimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -233,7 +233,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/eimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -272,7 +272,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/fimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -311,7 +311,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
+                            height: 11vw;
                             margin: 0 auto 10px;
                             background: url(../../images/main/gimg345.jpg) center no-repeat;
                             background-size: cover;
@@ -350,8 +350,7 @@
                             display: block;
                             content: "";
                             width: 95%;
-                            height: 90px;
-                            margin: 0 auto 10px;
+                            height: 11vw;                            margin: 0 auto 10px;
                             background: url(../../images/main/himg345.jpg) center no-repeat;
                             background-size: cover;
                         }
@@ -377,22 +376,21 @@
                             background: url(../../images/main/triangle345.jpg) no-repeat;
                         }
                     }
-                }
-                
-                
+                }  
             }
-
-
-
-
-
+        }
+        .youtube {
+            margin: 30px 0 10px 10px;
+            a {
+                width: 47px;
+                height: 20px;
+                display: block;
+                background: url(../../images/main/youtube345.jpg) no-repeat center;
+                text-indent: -9999px;
+            }
         }
 
     }
-
-
-
-
 
 } /* main end */
 
