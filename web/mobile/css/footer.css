@@ -1,4 +1,4 @@
-@charset "utf-8";
+@media screen and (max-width:1023px){
 
 /* footer */
 .footer{
@@ -31,4 +31,6 @@
     height: 19px;
     background: url(../images/index/tamna_mobile_index_footer_jejulogo.jpg) no-repeat;
     text-indent: -9999px;
+}
+
 }
