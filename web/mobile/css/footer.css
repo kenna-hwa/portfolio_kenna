@@ -3,16 +3,16 @@
 /* footer */
 .footer{
     display: flex;
-    width: 767px;
+    width: 100%;
     height: 200px;
     background: #4b4b4b;
-    margin: 0 auto;
+    margin: 20px auto 0;
     justify-content: center;
     align-items: center;
 }
 .footer_box{
     display: flex;
-    width: 565px;
+    width: 89%;
     height: 200px;
     justify-content: space-between;
     align-items: center;

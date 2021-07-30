@@ -3,49 +3,50 @@
 /* main */
 .main{
     width: 100%;
-    height: 1440px;
+    height: 100%;
     margin: 0 auto;
     z-index: 0;
 }
 .main_img_wrap{
-    width: 767px;
+    width: 89vw;
     height: 498px;
-    margin: auto;
+    margin: 0 auto;
     border-bottom: 2px solid #595959;
     box-sizing: border-box;
     overflow: hidden;
 }
 .slidewrap{
-    width: 3068px;
-    height: 498px;
+    width: 356vw;
+    height: 50vw;
     margin: 0;
     padding: 0;
 }
 .main_img_1{
-    width: 767px;
-    height: 497px;
+    width: 89vw;
     float: left;
 }
 .main_img_2{
-    width: 767px;
+    width: 89vw;
     height: 498px;
     float: left;
 }
 .main_img_3{
-    width: 767px;
+    width: 89vw;
     height: 498px;
     float: left;
 }
 .main_img_4{
-    width: 767px;
+    width: 89vw;
     height: 498px;
     float: left;
-}
+} 
+
 /* quick menu */
 .quick_menu{
     position: relative;
-    width: 767px;
+    width: 90%;
     height: 200px;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 .quick_menu a{
@@ -57,7 +58,7 @@
 .quick_menu ul{
     position: relative;
     display: flex;
-    width: 744px;
+    width: 100%;
     height: 200px;
     margin: 0 auto;
     flex-flow: row wrap;
@@ -65,7 +66,7 @@
 .quick_subs{
     position: relative;
     display: flex;
-    width: 373px;
+    width: 50%;
     height: 100px;
     margin: 0;
     border-right: 1px solid #e6e6e6;
@@ -75,7 +76,7 @@
 .quick_subs a{
     position: relative;
     display: flex;
-    width: 373px;
+    width: 100%;
     height: 100px;
     padding-left: 50px;
     box-sizing: border-box;
@@ -92,7 +93,7 @@
 .quick_usage{
     position: relative;
     display: flex;
-    width: 370px;
+    width: 50%;
     height: 100px;
     margin: 0;
     border-bottom: 1px solid #e6e6e6;
@@ -102,7 +103,7 @@
 .quick_usage a{
     position: relative;
     display: flex;
-    width: 370px;
+    width: 100%;
     height: 100px;
     padding-left: 50px;
     box-sizing: border-box;
@@ -119,7 +120,7 @@
 .quick_search{
     position: relative;
     display: flex;
-    width: 373px;
+    width: 50%;
     height: 100px;
     margin: 0;
     border-right: 1px solid #e6e6e6;
@@ -130,7 +131,7 @@
 .quick_search a{
     position: relative;
     display: flex;
-    width: 373px;
+    width: 100%;
     height: 100px;
     padding-left: 50px;
     box-sizing: border-box;
@@ -147,7 +148,7 @@
 .quick_register{
     position: relative;
     display: flex;
-    width: 370px;
+    width: 50%;
     height: 100px;
     margin: 0;
     box-sizing: border-box;
@@ -157,7 +158,7 @@
 .quick_register a{
     position: relative;
     display: flex;
-    width: 370px;
+    width: 100%;
     height: 100px;
     padding-left: 50px;
     box-sizing: border-box;
@@ -173,25 +174,26 @@
 }
 /* board */
 .board{
-    width: 744px;
+    width: 90%;
     height: 200px;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 .board_top{
     display: flex;
-    width: 744px;
+    width: 100%;
     height: 100px;
     border-bottom: 1px solid #e6e6e6;
     box-sizing: border-box;
     flex-flow: row wrap;
 }
 .board_notice{
-    width: 373px;
+    width: 50%;
     height: 100px;
     border-right: 1px solid #e6e6e6;
     padding: 20px 0 0 50px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .board_notice ul li{
     position: relative;
@@ -206,10 +208,11 @@
     top: -5px;
 }
 .board_news{
-    width: 370px;
+    width: 50%;
     height: 100px;
     padding: 20px 0 0 50px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .board_news ul li{
     position: relative;
@@ -225,21 +228,22 @@
 }
 .board_bottom{
     display: flex;
-    width: 744px;
+    width: 100%;
     height: 100px;
     box-sizing: border-box;
     flex-flow: row wrap;
 }
 .board_qna{
-    width: 373px;
+    width: 50%;
     height: 100px;
     border-right: 1px solid #e6e6e6;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .board_qna h3 a{
     position: relative;
     display: flex;
-    width: 374px;
+    width: 100%;
     height: 100px;
     padding-left: 50px;
     box-sizing: border-box;
@@ -256,15 +260,16 @@
 }
 .board_qr{
     display: flex;
-    width: 370px;
+    width: 50%;
     height: 98px;
     box-sizing: border-box;
     flex-flow: row-reverse nowrap;
     background: url(../images/index/tamna_mobile_index_qr_back.jpg) no-repeat center;
+    overflow: hidden;
 }
 .board_qr a{
     display: block;
-    width: 370px;
+    width: 100%;
     height: 100px;
     padding: 30px 50px 0 0;
     box-sizing: border-box;
@@ -280,19 +285,21 @@
 }
 /* youtube */
 .youtube{
-    width: 767px;
+    width: 90%;
     height: 400px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
 }
 .youtube_official_iframe{
-    width: 767px;
+    width: 100%;
     height: 400px;
+    margin: auto;
 }
 .link{
+    position: relative;
     display: flex;
-    width: 645px;
+    width: 90%;
     height: 100px;
-    margin: auto;
+    margin: 0 auto;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -333,5 +340,124 @@
     background: url(../images/index/tamna_mobile_index_link_jejusafe.jpg) no-repeat;
     text-indent: -9999px;
 }
+
+}
+
+@media screen and (max-width:1023px){
+
+    /* main */
+    .quick_subs{
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 100px;
+        margin: 0;
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        box-sizing: border-box;
+    }
+    .quick_subs a{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 2.2vw;
+    }
+    .quick_subs a::before{
+        display: inline-block;
+        width: 75px;
+        height: 65px;
+        content: "";
+        background: url(../images/index/tamna_mobile_index_card.jpg) no-repeat;
+        margin-right: 22%;
+    }
+    .quick_usage{
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 100px;
+        margin: 0;
+        border-bottom: 1px solid #e6e6e6;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    .quick_usage a{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 2.2vw;
+    }
+    .quick_usage a::before{
+        display: inline-block;
+        width: 75px;
+        height: 65px;
+        content: "";
+        background: url(../images/index/tamna_mobile_index_paymentview.jpg) no-repeat;
+        margin-right: 22%;
+    }
+    .quick_search{
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 100px;
+        margin: 0;
+        border-right: 1px solid #e6e6e6;
+        box-sizing: border-box;
+        align-items: center;
+        border-bottom: 2px solid #595959;
+    }
+    .quick_search a{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 2.2vw;
+    }
+    .quick_search a::before{
+        display: inline-block;
+        width: 75px;
+        height: 65px;
+        content: "";
+        background: url(../images/index/tamna_mobile_index_shopsearch.jpg) no-repeat;
+        margin-right: 22%;
+    }
+    .quick_register{
+        position: relative;
+        display: flex;
+        width: 50%;
+        height: 100px;
+        margin: 0;
+        box-sizing: border-box;
+        align-items: center;
+        border-bottom: 2px solid #595959;
+    }
+    .quick_register a{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        padding-left: 50px;
+        box-sizing: border-box;
+        align-items: center;
+        font-size: 2.2vw;
+    }
+    .quick_register a::before{
+        display: inline-block;
+        width: 75px;
+        height: 65px;
+        content: "";
+        background: url(../images/index/tamna_mobile_index_shopapply.jpg) no-repeat;
+        margin-right: 22%;
+    }
 
 }

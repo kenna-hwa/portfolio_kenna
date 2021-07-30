@@ -3,7 +3,7 @@
 /* main */
 
 .main{
-    width: 767px;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     padding-top: 50px;
@@ -11,7 +11,7 @@
     z-index: 0;
 }
 .tamna_what_is{
-    width: 645px;
+    width: 90%;
     height: 538px;
     margin: 0 auto 100px;
 }
@@ -27,34 +27,34 @@
     margin-bottom: 50px;
 }
 .tamna_what_is_txt{
-    width: 530px;
+    width: 100%;
     font-size: 12px;
     margin-bottom: 50px;
 }
 .tamna_what_is>ul{
-    width: 645px;
+    width: 100%;
     height: 209px;
 }
 .tamna_what_is>ul>li:nth-child(1){
-    width: 132px;
+    width: 20%;
     height: 209px;
-    background: url(../images/intro/tamna_mobile_intro_kbyellow.jpg);
+    background: url(../images/intro/tamna_mobile_intro_kbyellow.jpg) no-repeat;
     text-indent: -9999px;
-    margin-right: 124px;
+    margin-right: 18%;
     float: left;
 }
 .tamna_what_is>ul>li:nth-child(2){
-    width: 132px;
+    width: 20%;
     height: 209px;
-    background: url(../images/intro/tamna_mobile_intro_kbgreen.jpg);
+    background: url(../images/intro/tamna_mobile_intro_kbgreen.jpg) no-repeat;
     text-indent: -9999px;
-    margin-right: 123px;
+    margin-right: 18%;
     float: left;
 }
 .tamna_what_is>ul>li:nth-child(3){
-    width: 134px;
+    width: 22%;
     height: 209px;
-    background: url(../images/intro/tamna_mobile_intro_paper.jpg);
+    background: url(../images/intro/tamna_mobile_intro_paper.jpg) no-repeat;
     text-indent: -9999px;
     float: left;
 }
@@ -62,7 +62,7 @@
     display: none;
 }
 .tamna_user_benefit{
-    width: 645px;
+    width: 90%;
     height: 503px;
     margin: 0 auto 100px;
 }
@@ -81,35 +81,36 @@
     margin-bottom: 50px;
 }
 .tamna_user_benefit ol{
-    width: 645px;
+    width: 100%;
+    background: red;
     height: 271px;
 }
 .tamna_user_benefit ol li:nth-child(1){
-    width: 195px;
+    width: 30%;
     height: 273px;
     float: left;
     background: url(../images/intro/tamna_mobile_intro_bf1.jpg)no-repeat;
     text-indent: -9999px;
 }
 .tamna_user_benefit ol li:nth-child(2){
-    width: 195px;
+    width: 30%;
     height: 273px;
     float: left;
-    margin-left: 30px;
+    margin-left: 5%;
     background: url(../images/intro/tamna_mobile_intro_bf2.jpg)no-repeat;
     text-indent: -9999px;
 }
 .tamna_user_benefit ol li:nth-child(3){
-    width: 195px;
+    width: 30%;
     height: 273px;
     float: left;
-    margin-left: 30px;
+    margin-left: 5%;
     background: url(../images/intro/tamna_mobile_intro_bf3.jpg)no-repeat;
     text-indent: -9999px;
 }
 .tamna_howto{
     position: relative;
-    width: 645px;
+    width: 90%;
     height: 100%;
     margin: 0 auto 50px;
 }
@@ -157,7 +158,7 @@
     margin-bottom: 50px;
 }
 .tamna_howto_KB ul>li:nth-child(1){
-    width: 645px;
+    width: 90%;
     height: 113px;
     margin-bottom: 150px;
 }
@@ -200,7 +201,7 @@
     font-weight: 500;
 }
 .tamna_howto_KB ul>li:nth-child(2){
-    width: 645px;
+    width: 90%;
     height: 113px;
     margin-bottom: 70px;
 }
@@ -265,7 +266,7 @@
     margin-bottom: 50px;
 }
 .tamna_howto_Kona ul>li:nth-child(1){
-    width: 645px;
+    width: 90%;
     height: 113px;
     margin-bottom: 150px;
 }
@@ -308,7 +309,7 @@
     font-weight: 500;
 }
 .tamna_howto_Kona ul>li:nth-child(2){
-    width: 645px;
+    width: 90%;
     height: 113px;
     margin-bottom: 70px;
 }
@@ -360,6 +361,11 @@
     font-weight: 500;
 }
 /* Paper */
+.tamna_howto_paper{
+    width: 100%;
+    margin: auto;
+    background: red;
+}
 .paper_offline_title{
     display: inline-block;
     font-size: 18px;
@@ -368,10 +374,13 @@
     margin-bottom: 80px;
 }
 .paper_offline_ol{
-    margin-bottom: 50px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto 50px;
+    background: pink;
 }
 .tamna_howto_paper ul>li:nth-child(1){
-    width: 645px;
+    width: 90%;
     height: 235px;
 }
 .tamna_howto_paper_off_1{
@@ -379,7 +388,7 @@
     font-size: 12px;
     font-weight: 300;
     text-align: center;
-    margin-right: 150px;
+    margin-right:15%;
     float: left;
 }
 .tamna_howto_paper_off_1>span{
@@ -392,7 +401,7 @@
     font-size: 12px;
     font-weight: 300;
     text-align: center;
-    margin-right: 95px;
+    margin-right: 15%;
     float: left;
 }
 .tamna_howto_paper_off_2>span{
