@@ -7,39 +7,43 @@
     margin: 0 auto;
     z-index: 0;
 }
-.main_img_wrap{
-    width: 89vw;
-    height: 498px;
+.main_img_wrap {
+    position: relative;
+    width: 90%;
+    height: auto;
     margin: 0 auto;
-    border-bottom: 2px solid #595959;
-    box-sizing: border-box;
+    left: 0px;
     overflow: hidden;
 }
 .slidewrap{
-    width: 356vw;
+    display: flex;
+    width: 300%;
     height: 50vw;
-    margin: 0;
-    padding: 0;
+    flex-flow: row nowrap;
 }
 .main_img_1{
-    width: 89vw;
-    float: left;
+    width: 100%;
+    height: auto;
+    background: url(../images/index/tamna_mobile_index_main_img1.jpg) no-repeat center;
+    background-size: cover;
 }
 .main_img_2{
-    width: 89vw;
-    height: 498px;
-    float: left;
+    width: 100%;
+    height: auto;
+    background: url(../images/index/tamna_mobile_index_main_img2.jpg) no-repeat center;
+    background-size: cover;
 }
 .main_img_3{
-    width: 89vw;
-    height: 498px;
-    float: left;
+    width: 100%;
+    height: auto;
+    background: url(../images/index/tamna_mobile_index_main_img3.jpg) no-repeat center;
+    background-size: cover;
 }
-.main_img_4{
-    width: 89vw;
-    height: 498px;
-    float: left;
-} 
+.img1,.img2,.img3{
+    display: none;
+}
+
+
 
 /* quick menu */
 .quick_menu{
