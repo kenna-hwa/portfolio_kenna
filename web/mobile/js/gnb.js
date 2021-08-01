@@ -4,11 +4,11 @@ $(function(){
     //gnb
 
     $(".gnb_more, .sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").mouseenter(function () {
-        $(".sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").stop().show("1300");
+        $(".sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").stop().slideDown('1200');
     });
 
-    $(".gnb_more, .sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").mouseleave(function () {
-        $(".sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").stop().hide("1300");
+    $(".sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").mouseleave(function () {
+        $(".sub, .gnb_sub_box, .gnb_signin_join_wrap, .menu").stop().slideUp("1300");
     });
     
 

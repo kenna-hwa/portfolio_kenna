@@ -20,8 +20,6 @@
     <!-- script start -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="js/gnb.js"></script>
-    <script src="js/bxSlider.js"></script>
-    <script src="js/index.js"></script>
     <!-- script end -->
 </head>
 
@@ -196,6 +194,29 @@
     </footer>
    <!-- footer end -->
       <!-- script add -->
-      <!-- <script src="js/index.js"></script> -->
+      <script>
+        $(function(){
+
+        var now = 0;
+        var img = 2;
+      
+        $('.item').eq(0).siblings().hide();
+      
+        function slide(){
+          if (now == img){
+            $('.item').eq(now).fadeOut(1500);
+            $('.item').eq(0).fadeIn(1500);
+            now = 0;
+          }
+          else{
+            $('.item').eq(now).fadeOut(1500);
+            $('.item').eq(now+1).fadeIn(1500);
+            now++;
+          }
+        }
+        setInterval(slide, 5500);
+        });
+        
+      </script>
 </body>
 </html>
