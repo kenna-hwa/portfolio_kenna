@@ -31,7 +31,7 @@ include "phpsrc/dbcon.php";
     <!-- link end -->
     <!-- script start -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
+    <script src="js/checkArgent.js"></script>
 
     <!-- script end -->
 </head>
