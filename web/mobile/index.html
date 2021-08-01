@@ -110,6 +110,11 @@
                         </a>
                     </li> 
                 </ul> 
+                <div class="pagenation">
+                        <p class="page1">1</p>
+                        <p class="page2">2</p>
+                        <p class="page3">3</p>
+                </div>
         </div>
         <!-- main img end -->
         <!-- quick menu start -->
@@ -197,6 +202,27 @@
       <script>
         $(function(){
 
+        //pagination
+
+            
+        $('.page1').click(function(){
+            $('.main_img_1').show(50);
+            $('.main_img_2').hide(10);
+            $('.main_img_3').hide(10);
+        });
+         $('.page2').click(function(){
+            $('.main_img_2').show(50);
+            $('.main_img_1').hide(10);
+            $('.main_img_3').hide(10);
+        });
+        $('.page3').click(function(){
+            $('.main_img_3').show(50);
+            $('.main_img_1').hide(10);
+            $('.main_img_2').hide(10);
+        });
+        
+        //slider
+
         var now = 0;
         var img = 2;
       
@@ -214,9 +240,8 @@
             now++;
           }
         }
-        setInterval(slide, 5500);
-        });
-        
+        setInterval(slide, 5000);
+    });
       </script>
 </body>
 </html>
