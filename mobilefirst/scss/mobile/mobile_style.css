@@ -215,7 +215,7 @@
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     width: 100%;
-    height: 310px;
+    height: 100%;
     border-top: 1px solid #2e3551;
     border-bottom: 1px solid #111;
   }
@@ -240,6 +240,7 @@
     right: 25px;
   }
   .header nav .nav_menu .coffee_box .coffee_menu {
+    display: none;
     width: 97%;
     height: 260px;
     margin: auto;
@@ -282,7 +283,7 @@
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     width: 100%;
-    height: 450px;
+    height: 100%;
     border-top: 1px solid #2e3551;
     border-bottom: 1px solid #111;
   }
@@ -322,6 +323,7 @@
     padding: 10px;
     background: #fff;
     line-height: 1.6em;
+    display: none;
   }
   .header nav .nav_menu .kitchen_box .kitchen_menu .kitchenmachine {
     width: 50%;
@@ -345,7 +347,7 @@
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     width: 100%;
-    height: 170px;
+    height: 100%;
     border-top: 1px solid #2e3551;
     border-bottom: 1px solid #111;
   }
@@ -385,6 +387,7 @@
     padding: 10px;
     background: #fff;
     line-height: 1.6em;
+    display: none;
   }
   .header nav .nav_menu .customer_box {
     position: relative;
@@ -396,7 +399,7 @@
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     width: 100%;
-    height: 250px;
+    height: 100%;
     border-top: 1px solid #2e3551;
     border-bottom: 1px solid #111;
   }
@@ -436,6 +439,7 @@
     padding: 10px;
     background: #fff;
     line-height: 1.6em;
+    display: none;
   }
   .header nav .nav_menu .customer_box .customer_menu .customer_legal a {
     color: #67d5e3;
@@ -474,6 +478,7 @@
     padding: 10px;
     background: #fff;
     line-height: 1.6em;
+    display: none;
   }
   .header nav .nav_menu .customer_box .customer_guide a {
     color: #67d5e3;
@@ -488,7 +493,7 @@
         -ms-flex-flow: column nowrap;
             flex-flow: column nowrap;
     width: 100%;
-    height: 102px;
+    height: 100%;
     border-top: 1px solid #2e3551;
     border-bottom: 1px solid #111;
   }
@@ -528,6 +533,7 @@
     padding: 11px;
     background: #fff;
     line-height: 1.6em;
+    display: none;
   }
   /* header end */
   /* main start */
@@ -537,26 +543,22 @@
   }
   .main .main_slider_wrap {
     width: 100%;
+    height: 30vw;
     overflow: hidden;
   }
   .main .main_slider_wrap .main_slider {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 100%;
-    height: 200px;
-    margin-top: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    height: 30vw;
+    overflow: hidden;
   }
-  .main .main_slider_wrap .main_slider .a-main {
-    position: absolute;
+  .main .main_slider_wrap .main_slider .a_main {
+    position: relative;
     width: 100%;
+    height: 30vw;
+    background: url(../../images/main/main_airfri.jpg) center no-repeat;
+    margin-top: 10px;
+    background-size: cover;
   }
   .main .main_contents {
     width: 100%;

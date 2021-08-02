@@ -123,7 +123,7 @@
                 display: flex;
                 flex-flow: column nowrap;
                 width: 100%;
-                height: 310px;
+                height: 100%;
                 border-top: 1px solid #2e3551;
                 border-bottom: 1px solid #111;
                 >a {
@@ -148,6 +148,7 @@
                 }
 
                 .coffee_menu {
+                    display: none;
                     width: 97%;
                     height: 260px;
                     margin: auto;
@@ -195,7 +196,7 @@
                 display: flex;
                 flex-flow: column nowrap;
                 width: 100%;
-                height: 450px;
+                height: 100%;
                 border-top: 1px solid #2e3551;
                 border-bottom: 1px solid #111;
 
@@ -230,7 +231,8 @@
                     padding: 10px;
                     background: #fff;
                     line-height: 1.6em;
-
+                    display: none;
+                    
                     .kitchenmachine {
                         width: 50%;
                         height: 40%;
@@ -253,7 +255,7 @@
                 display: flex;
                 flex-flow: column nowrap;
                 width: 100%;
-                height: 170px;
+                height: 100%;
                 border-top: 1px solid #2e3551;
                 border-bottom: 1px solid #111;
 
@@ -288,6 +290,7 @@
                     padding: 10px;
                     background: #fff;
                     line-height: 1.6em;
+                    display: none;
                 }
             }
 
@@ -296,7 +299,7 @@
                 display: flex;
                 flex-flow: column nowrap;
                 width: 100%;
-                height: 250px;
+                height: 100%;
                 border-top: 1px solid #2e3551;
                 border-bottom: 1px solid #111;
 
@@ -331,6 +334,7 @@
                     padding: 10px;
                     background: #fff;
                     line-height: 1.6em;
+                    display: none;
 
                     .customer_legal {
                         a {
@@ -377,6 +381,7 @@
                     padding: 10px;
                     background: #fff;
                     line-height: 1.6em;
+                    display: none;
 
                     a {
                         color: #67d5e3;
@@ -389,7 +394,7 @@
                 display: flex;
                 flex-flow: column nowrap;
                 width: 100%;
-                height: 102px;
+                height: 100%;
                 border-top: 1px solid #2e3551;
                 border-bottom: 1px solid #111;
 
@@ -424,6 +429,7 @@
                     padding: 11px;
                     background: #fff;
                     line-height: 1.6em;
+                    display: none;
                 }
             }
         }
