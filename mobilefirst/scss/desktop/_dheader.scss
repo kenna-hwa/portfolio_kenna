@@ -142,7 +142,6 @@
 
     } /* header top end */
 
-
     nav{
         position: relative;
         width: 100%;
@@ -152,7 +151,6 @@
             width: 100%;
             margin: 0 auto;
             padding-left: 200px;
-            background: red;
 
             .coffee_box{
                 position: absolute;
@@ -170,7 +168,7 @@
                     color: #fff;
 
                 }
-                >a:hover{
+                .coffeehover{
                     background: #fff;
                     border-top: 4px solid saddlebrown;
                     box-sizing: border-box;
@@ -259,7 +257,7 @@
                     z-index: 10;
                     color: #fff;
                 }
-                >a:hover{
+                .kichenhover{
                     background: #fff;
                     border-top: 4px solid burlywood;
                     box-sizing: border-box;
@@ -340,7 +338,7 @@
                     z-index: 10;
                     color: #fff;
                 }
-                >a:hover{
+                .seasonhover{
                     background: #fff;
                     border-top: 4px solid powderblue;
                     box-sizing: border-box;
@@ -407,7 +405,7 @@
                     z-index: 10;
                     color: #67d5e3;
                 }
-                >a:hover{
+                .customerhover{
                     background: #fff;
                     border-top: 4px solid #67d5e3;
                     box-sizing: border-box;
@@ -516,7 +514,7 @@
                     z-index: 10;
                     color: #67d5e3;
                 }
-                >a:hover{
+                .viphover{
                     background: #fff;
                     border-top: 4px solid #67d5e3;
                     box-sizing: border-box;

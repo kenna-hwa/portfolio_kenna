@@ -174,7 +174,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-left: 1px solid #07294f;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -190,6 +190,9 @@
   .header .header_top .user_menu .user_menu_li a {
     display: block;
     height: 100%;
+  }
+  .header .show {
+    display: block;
   }
   .header nav {
     position: relative;
@@ -312,7 +315,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 97%;
-    height: 385px;
+    height: 100%;
     margin: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -328,14 +331,25 @@
   .header nav .nav_menu .kitchen_box .kitchen_menu .kitchenmachine {
     width: 50%;
     height: 40%;
+    margin-bottom: 20px;
+  }
+  .header nav .nav_menu .kitchen_box .kitchen_menu .kitchenmachine .kitchenmachine_sub {
+    margin-top: 5px;
   }
   .header nav .nav_menu .kitchen_box .kitchen_menu .kitchenbreak {
     width: 50%;
     height: 60%;
+    margin-bottom: 20px;
+  }
+  .header nav .nav_menu .kitchen_box .kitchen_menu .kitchenbreak .kitchenbreak_sub {
+    margin-top: 5px;
   }
   .header nav .nav_menu .kitchen_box .kitchen_menu .kitcheninduction {
     width: 50%;
     height: 50%;
+  }
+  .header nav .nav_menu .kitchen_box .kitchen_menu .kitcheninduction .kitcheninduction_sub {
+    margin-top: 5px;
   }
   .header nav .nav_menu .season_box {
     position: relative;
@@ -428,7 +442,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 97%;
-    height: 113px;
+    height: 100%;
     margin: 10px auto 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -467,7 +481,7 @@
     display: -ms-flexbox;
     display: flex;
     width: 97%;
-    height: 65px;
+    height: 100%;
     margin: 0 auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

@@ -242,7 +242,6 @@
     width: 100%;
     margin: 0 auto;
     padding-left: 200px;
-    background: red;
   }
   .header nav .nav_menu .coffee_box {
     position: absolute;
@@ -259,7 +258,7 @@
     z-index: 10;
     color: #fff;
   }
-  .header nav .nav_menu .coffee_box > a:hover {
+  .header nav .nav_menu .coffee_box .coffeehover {
     background: #fff;
     border-top: 4px solid saddlebrown;
     -webkit-box-sizing: border-box;
@@ -340,7 +339,7 @@
     z-index: 10;
     color: #fff;
   }
-  .header nav .nav_menu .kitchen_box > a:hover {
+  .header nav .nav_menu .kitchen_box .kichenhover {
     background: #fff;
     border-top: 4px solid burlywood;
     -webkit-box-sizing: border-box;
@@ -413,7 +412,7 @@
     z-index: 10;
     color: #fff;
   }
-  .header nav .nav_menu .season_box > a:hover {
+  .header nav .nav_menu .season_box .seasonhover {
     background: #fff;
     border-top: 4px solid powderblue;
     -webkit-box-sizing: border-box;
@@ -477,7 +476,7 @@
     z-index: 10;
     color: #67d5e3;
   }
-  .header nav .nav_menu .customer_box > a:hover {
+  .header nav .nav_menu .customer_box .customerhover {
     background: #fff;
     border-top: 4px solid #67d5e3;
     -webkit-box-sizing: border-box;
@@ -602,7 +601,7 @@
     z-index: 10;
     color: #67d5e3;
   }
-  .header nav .nav_menu .vipclub_box > a:hover {
+  .header nav .nav_menu .vipclub_box .viphover {
     background: #fff;
     border-top: 4px solid #67d5e3;
     -webkit-box-sizing: border-box;
@@ -677,7 +676,7 @@
   .main .main_contents .main_contents_wrap .contentbox {
     width: 20.5%;
     padding: 10px;
-    height: 280px;
+    height: 100%;
     border: 1px solid #ddd;
     margin-bottom: 30px;
   }

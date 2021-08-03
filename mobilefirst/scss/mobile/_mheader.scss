@@ -88,7 +88,7 @@
                     margin-left: 50%;
                     justify-content: center;
                     align-items: center;
-                    padding-bottom: 15px;
+                    padding-bottom: 10px;
                     border-left: 1px solid #07294f;
                     box-sizing: border-box;
                     order: 3;
@@ -107,7 +107,9 @@
             }
         }
     }
-
+    .show{
+        display: block;
+    }
     /* nav */
     nav {
         position: relative;
@@ -224,7 +226,7 @@
                 .kitchen_menu {
                     display: flex;
                     width: 97%;
-                    height: 385px;
+                    height: 100%;
                     margin: auto;
                     flex-flow: column wrap;
                     box-sizing: border-box;
@@ -236,16 +238,27 @@
                     .kitchenmachine {
                         width: 50%;
                         height: 40%;
+                        margin-bottom: 20px;
+                        .kitchenmachine_sub{
+                            margin-top: 5px;
+                        }
                     }
 
                     .kitchenbreak {
                         width: 50%;
                         height: 60%;
+                        margin-bottom: 20px;
+                        .kitchenbreak_sub{
+                            margin-top: 5px;
+                        }
                     }
 
                     .kitcheninduction {
                         width: 50%;
                         height: 50%;
+                        .kitcheninduction_sub{
+                            margin-top: 5px;
+                        }
                     }
                 }
             }
@@ -327,7 +340,7 @@
                 .customer_menu {
                     display: flex;
                     width: 97%;
-                    height: 113px;
+                    height: 100%;
                     margin: 10px auto 0;
                     flex-flow: column wrap;
                     box-sizing: border-box;
@@ -374,7 +387,7 @@
                 .customer_guide {
                     display: flex;
                     width: 97%;
-                    height: 65px;
+                    height: 100%;
                     margin: 0 auto;
                     flex-flow: column wrap;
                     box-sizing: border-box;
