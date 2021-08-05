@@ -703,6 +703,68 @@ body{
     line-height: 1.85;
 }
 
+
+/* mobilefirst */
+
+.mobilefirst{
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 99.8vw;
+    height: 100vh;
+    margin: auto;
+    padding-left: 0;
+    border-top: 1px solid #eee;
+    box-sizing: border-box;
+    z-index: 1;
+    overflow: hidden;
+}
+.mobilefirst_header{
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: -0.015rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 1.5vw;
+}
+.mobilefirst_section{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    background: url(../images/mobilefirst_back.png) no-repeat;
+    background-position: left -20px 0;
+    background-size: contain;
+    flex-flow: row-reverse nowrap;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+}
+.mobilefirst_section_cont{
+    display: flex;
+    width: 45vw;
+    height: 100%;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    padding-right: 5vw;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.mobilefirst_section_txt{
+    text-align: right;
+}
+.mobilefirst_link_ul{
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+.mobilefirst_link_ul>li{
+    width: 5em;
+    height: 2em;
+    margin-right: 1em;
+    border: 1px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.85;
+}
+
 /* darkmode */
 body.dark {
     background: url(../images/dbackground.jpg) no-repeat;
