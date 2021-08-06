@@ -19,7 +19,7 @@
     left: 0; 
     background-color: rgba(50, 50, 50, 0.4); 
     z-index: 100;
-    /* display: none;  */
+    display: none; 
 } 
 .modal { 
     position: absolute; 

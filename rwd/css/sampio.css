@@ -1,83 +1,11 @@
 /* 1024px 이상 PC */
-/* modal */
+@media screen and (min-width:1024px) {
 
-@keyframes modal_animation{
-    0% {
-    opacity: 0;
-    }
-    50% {
-    opacity: 0.5;
-    }
-    100% {
-    opacity: 1;
-    }
-}
-.modal_wrap { 
-    position: absolute; 
-    width: 100%; 
-    height: 100vh; 
-    top: 0; 
-    left: 0; 
-    background-color: rgba(50, 50, 50, 0.4); 
-    z-index: 100;
-    display: none; 
-} 
-.modal { 
-    position: absolute; 
-    width: 500px; 
-    height: 500px; 
-    top: 50%; 
-    left: 50%; 
-    padding: 30px;
-    border-top: 50px solid #eee;
-    border-bottom: 50px solid #eee;
-    box-sizing: border-box;
-    text-align: center; 
-    background-color: white;
-    border-radius: 10px; 
-    box-shadow: 0 2px 3px 0 rgba(150, 150, 150, 0.2); 
-    transform: translateX(-50%) translateY(-50%); 
-}
-.modal_alert_img{
-    width: 30%;
-    height: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    animation-name: modal_animation;
-    animation-duration: 1.5s;
-    animation-timing-function:linear;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-p{
-    font-size: 12px;
-    line-height: 1.5em;
-}
-p>span{
-    color: crimson;
-}
-.modal_close_btn{
-    margin-top: 30px;
-    font-size: 18px;
-    color: palevioletred;
-    font-weight: 600;
-    transition: all 0.5s;
-    
-}
-.modal_close_btn:hover{
-        color: darkred;
-        transition: all 0.5s;
-}
-
-.modal_wrap.active { 
-display: block; 
-} 
     
 /* body */
 body {
     position: relative;
-    width: 1920px;
+    width: 100vw;
     height: 100%;
     margin: auto;
     font-family: 'Noto Sans KR', sans-serif;
@@ -755,6 +683,7 @@ body {
 .sam_inicis_service>h3{
     margin-right: 28px;
 }
+
 .inicis_check>a{
     margin-left: 5px;
     color: #999;
@@ -888,6 +817,8 @@ body {
     text-indent: -9999px;
 }
 /* footer end */
+
+}
 /* -------------------------------------------- */
 
 
@@ -897,81 +828,6 @@ body {
 /* 타블렛 */
 @media screen and (max-width:1023px) {
 
-    /* modal */
-
-@keyframes modal_animation{
-    0% {
-    opacity: 0;
-    }
-    50% {
-    opacity: 0.5;
-    }
-    100% {
-    opacity: 1;
-    }
-}
-.modal_wrap { 
-    position: absolute; 
-    width: 100%; 
-    height: 100vh; 
-    top: 0; 
-    left: 0; 
-    background-color: rgba(50, 50, 50, 0.4); 
-    z-index: 100;
-    display: none; 
-} 
-.modal { 
-    position: absolute; 
-    width: 300px; 
-    height: 300px; 
-    top: 50%; 
-    left: 50%; 
-    padding: 15px;
-    border-top: 30px solid #eee;
-    border-bottom: 30px solid #eee;
-    box-sizing: border-box;
-    text-align: center; 
-    background-color: white;
-    border-radius: 10px; 
-    box-shadow: 0 2px 3px 0 rgba(150, 150, 150, 0.2); 
-    transform: translateX(-50%) translateY(-50%); 
-}
-.modal_alert_img{
-    width: 30%;
-    height: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    animation-name: modal_animation;
-    animation-duration: 1.5s;
-    animation-timing-function:linear;
-    animation-delay: 0s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-p{
-    font-size: 12px;
-    line-height: 1.5em;
-}
-p>span{
-    color: crimson;
-}
-.modal_close_btn{
-    margin-top: 20px;
-    font-size: 14px;
-    color: palevioletred;
-    font-weight: 600;
-    transition: all 0.5s;
-    
-}
-.modal_close_btn:hover{
-        color: darkred;
-        transition: all 0.5s;
-}
-
-.modal_wrap.active { 
-display: block; 
-} 
-    
 
     body{
         width: 1023px;
@@ -1210,6 +1066,9 @@ display: block;
         font-weight: 500;
         color: #666;
     }
+    #sub1, #sub2, #sub3, #sub4{
+        display: none;
+    }
     /* main */
     main{
         width: 945px;
@@ -1237,6 +1096,7 @@ display: block;
         left: 60px;
         background: url(../images/arrow_next.png) no-repeat;
         background-size: contain;
+        text-indent: -9999px;
     }
     .sam_caresel_img_next{
         position: relative;
@@ -1246,6 +1106,7 @@ display: block;
         left: 860px;
         background: url(../images/arrow_prev.png) no-repeat;
         background-size: contain;
+        text-indent: -9999px;
     }
     .sam_caresel_img_arrow a{
         display: block;
@@ -1294,6 +1155,7 @@ display: block;
     .sam_notice_event{
         display: flex;
         flex-flow: row nowrap;
+        overflow: hidden;
     }
     .sam_notice_wrap{
         display: flex;
@@ -1311,10 +1173,12 @@ display: block;
         margin-right: 30px;
     }
     .notice_title>a{
+        position: relative;
         display: block;
         font-size: 1rem;
         font-weight: 400;
         color: #aea288;
+        top: 35px;
     }
     .sam_notice{
         display: flex;
@@ -1355,10 +1219,12 @@ display: block;
         margin-right: 42px;
     }
     .event_title>a{
+        position: relative;
         display: block;
         font-size: 1rem;
         font-weight: 400;
         color: #aea288;
+        top: 35px;
     }
     .sam_event{
         display: flex;
@@ -1610,6 +1476,9 @@ display: block;
         height: 59px;
         flex-flow: column nowrap;
     }
+    .sam_inicis_service_p{
+        font-size: 0.75rem;
+    }
     .sam_relation_lang_sns{
         width: 220px;
         height: 202px;
@@ -1750,13 +1619,11 @@ display: block;
         height: 50px;
         border-top: 4px solid #ae2223;
         box-sizing: border-box;
-        background: gold;
     }
     .header_container{
         display: flex;
         width: 735px;
         height: 24px;
-        background: green;
         justify-content: space-between;
         align-items: center;
         padding: 0;
@@ -2061,7 +1928,6 @@ display: block;
         width: 296px;
         height: 13px;
         align-items: end;
-        background: green;
     }
     .sam_link_cont2{
         float: left;
