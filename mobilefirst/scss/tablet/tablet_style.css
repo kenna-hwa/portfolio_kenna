@@ -75,6 +75,103 @@
   }
   /* tabletDesktop */
   /* header start */
+  /* modal */
+  @-webkit-keyframes modal_animation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes modal_animation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .modal_wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.4);
+    z-index: 100;
+    display: none;
+  }
+  .modal_wrap .modal {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    border-top: 25px solid #eee;
+    border-bottom: 25px solid #eee;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(150, 150, 150, 0.2);
+            box-shadow: 0 2px 3px 0 rgba(150, 150, 150, 0.2);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  .modal_wrap .modal .modal_alert_img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    -webkit-animation-name: modal_animation;
+            animation-name: modal_animation;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  .modal_wrap .modal p {
+    font-size: 12px;
+    line-height: 2em;
+  }
+  .modal_wrap .modal p span {
+    color: crimson;
+  }
+  .modal_wrap .modal .modal_close_btn {
+    margin-top: 25px;
+    font-size: 16px;
+    color: palevioletred;
+    font-weight: 600;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .modal_wrap .modal .modal_close_btn:hover {
+    color: darkred;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .modal_wrap.active {
+    display: block;
+  }
+  /* body */
+  body {
+    overflow: hidden;
+  }
   /*  header top bar */
   .header {
     width: 100%;
