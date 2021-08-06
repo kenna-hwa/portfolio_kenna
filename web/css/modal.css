@@ -40,8 +40,8 @@
 .modal_alert_img{
     width: 30%;
     height: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 45px;
+    margin-top: 20px;
     animation-name: modal_animation;
     animation-duration: 1.5s;
     animation-timing-function:linear;
@@ -50,14 +50,14 @@
     animation-iteration-count: infinite;
 }
 p{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.5em;
 }
 p>span{
     color: crimson;
 }
 .modal_close_btn{
-    margin-top: 30px;
+    margin-top: 45px;
     font-size: 18px;
     color: palevioletred;
     font-weight: 600;
