@@ -37,6 +37,17 @@ include "phpsrc/dbcon.php";
 </head>
 <body>
     <!-- header start -->
+    <div class="modal_wrap">
+        <div class="modal">
+            <img src="./images/index/Alert.png" title="alert" alt="알림" class="modal_alert_img">
+            <p>
+                지금 보시는 페이지는 실제 기업의 페이지가 아닌 <br>
+                <span>개인 포트폴리오용</span>으로 제작되었습니다. <br>
+                © 2021 Juhwa Hwang. All Rights Reserved. <br>
+            </p>
+            <button type="button" class="modal_close_btn">닫기</button>
+        </div>
+    </div>
     <?php include "header.php" ?>
     <!-- header end -->
     <!-- main start -->
@@ -194,7 +205,28 @@ include "phpsrc/dbcon.php";
     <script src="js/gnb.js"></script>
     <script src="js/bxSlider.js"></script>
     <script type="text/javascript">
-    
+    //modal
+    const body = document.querySelector('body'); 
+    const modal = document.querySelector('.modal_wrap'); 
+    const closeBtn = document.querySelector('.modal_close_btn');
+
+    window.addEventListener('load', () => {
+        modal.classList.add('active');
+
+        if (modal.classList.contains('active')) {
+            body.style.overflow = 'hidden';
+        }
+    });
+
+    closeBtn.addEventListener('click', () => {
+        modal.classList.remove('active');
+
+        if (!modal.classList.contains('active')) {
+            body.style.overflow = 'auto';
+        }
+    });
+        
+
 
   window.onscroll = function(){topbtn()};
  
