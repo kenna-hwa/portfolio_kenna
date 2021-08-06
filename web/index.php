@@ -25,18 +25,24 @@ include "phpsrc/dbcon.php";
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="apple-touch-icon" href="../favicon.ico" sizes="144x144">
     <link type="text/css" rel="stylesheet" href="css/reset.css">
-    <link type="text/css" rel="stylesheet" href="css/header.css">
+    <link type="text/css" rel="stylesheet" href="css/modal.css">
     <link type="text/css" rel="stylesheet" href="css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/header.css">
     <link type="text/css" rel="stylesheet" href="css/footer.css">
     <!-- link end -->
     <!-- script start -->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="js/checkArgent.js"></script>
+    <!-- <script src="js/checkArgent.js"></script> -->
 
     <!-- script end -->
 </head>
 <body>
     <!-- header start -->
+    
+    <?php include "header.php" ?>
+    <!-- header end -->
+    <!-- main start -->
+    <main id="main" class="main">
     <div class="modal_wrap">
         <div class="modal">
             <img src="./images/index/Alert.png" title="alert" alt="알림" class="modal_alert_img">
@@ -48,10 +54,6 @@ include "phpsrc/dbcon.php";
             <button type="button" class="modal_close_btn">닫기</button>
         </div>
     </div>
-    <?php include "header.php" ?>
-    <!-- header end -->
-    <!-- main start -->
-    <main id="main" class="main">
         <!-- main img start -->
         <div class="main_img_wrap">
             <h2 class="blind">메인이미지</h2>
